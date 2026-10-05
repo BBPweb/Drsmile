@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. Smile — Orthodontics & Multispecialty Dentistry</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="aligner-3d.css" />
+  <script type="importmap">
+    { "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js" } }
+  </script>
+</head>
+<body>
+  <main class="hero" id="top">
+    <header class="nav">
+      <a class="brand" href="#" aria-label="Dr. Smile home">
+        <!-- <span class="brand-mark" aria-hidden="true"></span> -->
+        <span class="brand-text">
+          <img class="brand-logo" src="assets/logosmile.png" alt="Dr. Smile Orthodontics and Multispecialty Dentistry">
+        </span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a class="active" href="#">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About Us</a>
+        <a href="faq.html">Faq’s</a>
+        <a href="#treatments">Treatments</a>
+        <a class="contact-btn" href="contact.html">Contact Us</a>
+      </nav>
+
+      <button class="mobile-menu" aria-label="Open menu">☰</button>
+    </header>
+
+    <section class="hero-content">
+      <div class="copy">
+        <p class="eyebrow">Kerala's First Invisalign</p>
+        <h1>Diamond Provider</h1>
+        <p class="subhead">Best Dental Clinic in Kochi</p>
+        <p class="description">
+          Dr. Smile Orthodontics and Multispecialty Dentistry is a specialist-led dental clinic in Kalamassery
+          and Pannampilly Nagar, Kochi, dedicated to creating healthy, confident smiles through thoughtful
+          orthodontic care. Led by an IOS-certified orthodontist and Invisalign provider, our clinic focuses on
+          precision, planning, and long-term results.
+        </p>
+      </div>
+
+      <div class="video-wrap" aria-label="Dental animation">
+        <img
+  class="aligner-overlay"
+  src="assets/TEETH ALIGNER.png"
+  alt="Teeth aligner"
+/>
+        <video
+          class="hero-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="auto"
+          aria-label="Dental animation"
+        >
+          <source src="assets/hero.webm" type="video/webm" />
+          Your browser does not support WebM video.
+        </video>
+        <span class="video-badge">Precision · Care · Confidence</span>
+      </div>
+    </section>
+  </main>
+<!-- ==============================
+     SECOND SECTION
+================================= -->
+
+<section class="aligner-section" id="services">
+
+  <div class="aligner-section-inner">
+
+    <!-- LEFT CONTENT -->
+    <div class="aligner-copy">
+
+      <!-- <p class="aligner-eyebrow">
+        INVISALIGN®
+      </p> -->
+
+      <h2>
+        INVISALIGN CLEAR ALIGNERS
+      </h2>
+<h3>A clearer way to straighten your smile</h3>
+      <p class="aligner-description">
+        Clear aligners are a discreet alternative to traditional braces, designed to gradually straighten your teeth using a series of custom-made, transparent trays. Invisalign clear aligners are a popular choice, offering a virtually invisible and removable way to improve your smile while fitting comfortably into your daily routine. Custom-designed to suit your teeth, they provide a convenient and discreet orthodontic experience.
+      </p>
+
+      <!-- <a href="#contact" class="aligner-button">
+        Discover Invisalign
+        <span>→</span>
+      </a> -->
+
+    </div>
+
+
+    <!-- RIGHT IMAGE AREA -->
+    <div class="aligner-visual">
+
+      <div class="aligner-glow"></div>
+
+      <!-- This is the destination area for the moving aligner -->
+      <img
+        class="aligner-section-image"
+        src="assets/TEETH ALIGNER.png"
+        alt="Invisalign clear aligner"
+      />
+
+    </div>
+
+  </div>
+
+</section>
+<section class="aligner-3d-section" id="aligner-3d" aria-labelledby="aligner-3d-title">
+  <div class="aligner-3d-inner">
+    <div class="aligner-3d-stage" id="aligner-viewer">
+      <div class="aligner-3d-stage-label"><span></span> A closer look</div>
+      <div class="aligner-3d-status" role="status">Loading aligner model</div>
+      <div class="aligner-3d-canvas" aria-label="Three-dimensional clear aligner model"></div>
+      <div class="aligner-3d-controls">
+        <div class="aligner-view-tabs" role="group" aria-label="Model view">
+          <button class="is-active" type="button" data-view="front" aria-pressed="true">Front</button>
+          <button type="button" data-view="top" aria-pressed="false">Top</button>
+          <button type="button" data-view="side" aria-pressed="false">Side</button>
+        </div>
+        <div class="aligner-view-tools" role="group" aria-label="Model controls">
+          <button type="button" data-action="zoom-out" aria-label="Zoom out" title="Zoom out">−</button>
+          <button type="button" data-action="zoom-in" aria-label="Zoom in" title="Zoom in">+</button>
+          <button type="button" data-action="rotation" aria-label="Pause model rotation" aria-pressed="true" title="Pause rotation">Ⅱ</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="aligner-3d-copy">
+      <p class="aligner-3d-kicker"><span></span> Invisalign clear aligners</p>
+      <h2 id="aligner-3d-title">Clear aligners.<br /><em>Up close.</em></h2>
+      <p>Clear aligners are custom-made to fit your teeth and designed to move them gradually. Take a closer look at the shape behind a more discreet way to straighten your smile.</p>
+      <a class="aligner-3d-link" href="orthodontics.html">Explore orthodontic care <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="why-drsmile-section" id="about">
+  <div class="why-drsmile-inner">
+
+    <!-- Doctor image -->
+    <div class="why-drsmile-doctor">
+      <img
+        src="assets/338-x-468-copy.webp"
+        alt="Dr. Smile dental specialist"
+      />
+    </div>
+
+    <!-- Intro content -->
+    <div class="why-drsmile-copy">
+
+      <span class="why-drsmile-label">
+        WHY CHOOSE US
+      </span>
+
+      <h2>
+        A World-Class<br>
+        Dental Experience,<br>
+        Thoughtfully Delivered
+      </h2>
+
+      <p>
+        At Dr Smile, we provide expert dental care combining
+        advanced technology and personalised attention,
+        ensuring every patient enjoys healthy, beautiful,
+        and confident smiles with lasting results.
+      </p>
+
+      <a href="#contact" class="why-drsmile-button">
+        Contact us
+      </a>
+
+    </div>
+
+
+    <!-- Feature cards -->
+    <div class="why-drsmile-features">
+
+      <div class="why-feature">
+        <div class="why-feature-icon">
+          ♧
+        </div>
+
+        <div>
+          <h3>Global NRI Care &amp; Consultations</h3>
+
+          <p>
+            Seamless online consultations and treatment coordination
+            for NRIs, matching international expectations and ensuring
+            continuity of care.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="why-feature">
+        <div class="why-feature-icon">
+          ♧
+        </div>
+
+        <div>
+          <h3>Advanced Technology &amp; Precision</h3>
+
+          <p>
+            State-of-the-art diagnostics and 3D digital planning enable
+            highly accurate, efficient, and predictable dental treatment
+            outcomes.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="why-feature">
+        <div class="why-feature-icon">
+          ◉
+        </div>
+
+        <div>
+          <h3>Multidisciplinary Dream Team</h3>
+
+          <p>
+            A carefully picked panel of experienced specialists working
+            collaboratively to deliver precise, safe, and comprehensive
+            dental care.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="aligner-split-section" id="invisible-aligners" aria-labelledby="invisible-aligners-title">
+  <div class="aligner-split-orbit aligner-split-orbit-one" aria-hidden="true"></div>
+  <div class="aligner-split-orbit aligner-split-orbit-two" aria-hidden="true"></div>
+  <div class="aligner-split-glow aligner-split-glow-left" aria-hidden="true"></div>
+  <div class="aligner-split-glow aligner-split-glow-right" aria-hidden="true"></div>
+
+  <div class="aligner-split-inner">
+    <!-- LEFT IMAGE -->
+    <div class="aligner-split-visual aligner-split-left" data-parallax="left">
+      <div class="aligner-split-image-wrap">
+        <img src="assets/invisible-aligners-woman.jpg" alt="Woman smiling while holding a clear dental aligner">
+      </div>
+      <span class="aligner-split-ring" aria-hidden="true"></span>
+      <span class="aligner-split-spark spark-one" aria-hidden="true"></span>
+      <span class="aligner-split-spark spark-two" aria-hidden="true"></span>
+    </div>
+
+    <!-- CENTER CONTENT -->
+    <div class="aligner-split-content">
+      <p class="aligner-split-kicker"><span></span> INVISIBLE ALIGNERS <i></i></p>
+
+      <h2 id="invisible-aligners-title">
+        Real Smiles<br>
+        <em>Without the Braces</em>
+      </h2>
+
+      <p class="aligner-split-description">
+        Move your teeth, not your lifestyle. Our clear aligners give you a straighter smile without the hassle of traditional braces.
+      </p>
+
+      <a class="aligner-split-button" href="orthodontics.html">
+        Learn More
+        <span aria-hidden="true">→</span>
+      </a>
+
+      <div class="aligner-split-benefits" aria-label="Invisible aligner benefits">
+        <div class="aligner-benefit">
+          <span class="aligner-benefit-icon">◉</span>
+          <span>Nearly<br>Invisible</span>
+        </div>
+        <div class="aligner-benefit">
+          <span class="aligner-benefit-icon">◇</span>
+          <span>Removable<br>&amp; Convenient</span>
+        </div>
+        <div class="aligner-benefit">
+          <span class="aligner-benefit-icon">□</span>
+          <span>Fewer<br>Appointments</span>
+        </div>
+        <div class="aligner-benefit">
+          <span class="aligner-benefit-icon">⌣</span>
+          <span>Healthier,<br>Brighter Smile</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT IMAGE -->
+    <div class="aligner-split-visual aligner-split-right" data-parallax="right">
+      <div class="aligner-model-glow" aria-hidden="true"></div>
+      <div class="aligner-split-image-wrap">
+        <img src="assets/invisible-aligners-model.jpg" alt="Transparent clear dental aligners floating in a premium 3D presentation">
+      </div>
+      <span class="aligner-model-orbit" aria-hidden="true"></span>
+      <span class="aligner-split-spark spark-three" aria-hidden="true"></span>
+      <span class="aligner-split-spark spark-four" aria-hidden="true"></span>
+    </div>
+  </div>
+
+  <!-- <div class="aligner-split-progress" aria-hidden="true">
+    <span>01</span>
+    <i><b></b></i>
+    <span>04</span>
+  </div> -->
+
+  <div class="aligner-split-wave" aria-hidden="true"></div>
+</section>
+
+
+
+<section class="services-section" id="our-services" aria-labelledby="services-title">
+  <div class="services-inner">
+    <div class="services-heading fade-up">
+      <div>
+        <p class="services-kicker">SPECIALIST CARE, THOUGHTFULLY PLANNED</p>
+        <h2 id="services-title">Our Services</h2>
+      </div>
+      <p class="services-intro">
+        From a subtle smile adjustment to complete dental care, every treatment starts with a plan shaped around you.
+      </p>
+    </div>
+
+    <div class="services-grid">
+      <article class="service-card fade-up" id="endodontics">
+        <span class="service-number">01 / ROOT CANAL CARE</span>
+        <img class="service-image" src="assets/services/endodontics.png" alt="Molar cutaway showing root canals and a fine endodontic file" width="1254" height="1254" loading="lazy" decoding="async">
+        <div class="service-card-copy">
+          <h3>Endodontics<br>(Root Canal)</h3>
+          <p>Root canal care focused on preserving your natural teeth and supporting your comfort.</p>
+          <a class="service-link" href="endodontics.html">Enquire about treatment <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+
+      <article class="service-card fade-up" id="pediatric-dentistry">
+        <span class="service-number">02 / CHILDREN'S DENTAL CARE</span>
+        <img class="service-image" src="assets/services/pediatric-dentistry.png" alt="Baby tooth beside a small pink children's toothbrush" width="1254" height="1254" loading="lazy" decoding="async">
+        <div class="service-card-copy">
+          <h3>Pediatric Dentistry</h3>
+          <p>Thoughtful dental care for children, with a focus on healthy habits and growing smiles.</p>
+          <a class="service-link" href="pediatric-dentistry.html">Enquire about treatment <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+
+      <article class="service-card fade-up" id="digital-dentistry">
+        <span class="service-number">03 / DIGITAL DENTAL CARE</span>
+        <img class="service-image" src="assets/services/digital-dentistry.png" alt="Intraoral scanner above a dental arch with a blue digital scan model" width="1254" height="1254" loading="lazy" decoding="async">
+        <div class="service-card-copy">
+          <h3>Digital Dentistry</h3>
+          <p>Dental care supported by digital technology for personalised treatment planning.</p>
+          <a class="service-link" href="digital-dentistry.html">Enquire about treatment <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+
+      <article class="service-card fade-up" id="oral-surgery">
+        <span class="service-number">04 / SURGICAL CARE</span>
+        <img class="service-image" src="assets/services/oral-surgery.png" alt="Dental extraction forceps holding a wisdom tooth model" width="1254" height="1254" loading="lazy" decoding="async">
+        <div class="service-card-copy">
+          <h3>Oral Surgery</h3>
+          <p>Carefully planned surgical dental care, with guidance before and after your procedure.</p>
+          <a class="service-link" href="oral-surgery.html">Enquire about treatment <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+
+      <article class="service-card fade-up" id="cosmetic-dentistry">
+        <span class="service-number">05 / SMILE ENHANCEMENT</span>
+        <img class="service-image" src="assets/services/cosmetic-dentistry.png" alt="Ivory smile model with a thin porcelain veneer in front of an incisor" width="1254" height="1254" loading="lazy" decoding="async">
+        <div class="service-card-copy">
+          <h3>Cosmetic Dentistry</h3>
+          <p>Personalised cosmetic treatments to bring balance, brightness and confidence to your smile.</p>
+          <a class="service-link" href="cosmetic-dentistry.html">Enquire about treatment <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+
+      <article class="service-card fade-up" id="prosthodontics">
+        <span class="service-number">06 / RESTORATIVE CARE</span>
+        <img class="service-image" src="assets/services/prosthodontics.png" alt="Three-unit ceramic dental bridge above prepared supporting teeth" width="1254" height="1254" loading="lazy" decoding="async">
+        <div class="service-card-copy">
+          <h3>Prosthodontics</h3>
+          <p>Personalised care for restoring and replacing teeth, with attention to function and appearance.</p>
+          <a class="service-link" href="prosthodontics.html">Enquire about treatment <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+
+      <article class="service-card fade-up" id="implant-dentistry">
+        <span class="service-number">07 / TOOTH REPLACEMENT</span>
+        <img class="service-image" src="assets/services/implant-dentistry.png" alt="Exploded dental implant showing an ivory crown, gold abutment and titanium screw" width="1254" height="1254" loading="lazy" decoding="async">
+        <div class="service-card-copy">
+          <h3>Implant Dentistry</h3>
+          <p>Implant treatment options for missing teeth, planned around your individual dental needs.</p>
+          <a class="service-link" href="implant-dentistry.html">Enquire about treatment <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+
+      <article class="service-card fade-up" id="periodontics">
+        <span class="service-number">08 / GUM HEALTH</span>
+        <img class="service-image" src="assets/services/periodontics.png" alt="Healthy teeth and pink gums with a periodontal probe along the gumline" width="1254" height="1254" loading="lazy" decoding="async">
+        <div class="service-card-copy">
+          <h3>Periodontics</h3>
+          <p>Focused care for your gums and the supporting structures that help keep your teeth healthy.</p>
+          <a class="service-link" href="periodontics.html">Enquire about treatment <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="testimonials testimonials-premium reveal" id="testimonials" aria-labelledby="testimonials-title">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">Testimonials</div>
+      <h2 class="section-title" id="testimonials-title">Smiles That Speak<br><em>for Themselves</em></h2>
+      <p class="section-sub">
+        Real stories. Real transformations. Real confidence. Hear from patients who chose Dr Smile for thoughtful, specialist-led dental care.
+      </p>
+    </div>
+
+    <div class="testimonial-stage">
+      <button class="nav-btn nav-prev" aria-label="Previous testimonial">←</button>
+
+      <div class="testimonial-viewport" tabindex="0" role="region" aria-label="Patient reviews. Use the left and right arrow keys to browse.">
+        <div class="testimonial-track" id="testimonialTrack">
+
+          <article class="t-card">
+            <div class="quote">“</div>
+            <div class="stars">★★★★★</div>
+            <blockquote>
+              My Invisalign journey with Dr. Smile has been amazing. The team is so supportive and professional. I can’t stop smiling now!
+            </blockquote>
+            <div class="patient">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=85" alt="Patient">
+              <div>
+                <h4>Ananya Nair</h4>
+                <p>Kochi, Kerala</p>
+              </div>
+              <span class="treatment-tag">Invisalign</span>
+            </div>
+          </article>
+
+          <article class="t-card is-active">
+            <div class="quote">“</div>
+            <div class="stars">★★★★★</div>
+            <blockquote>
+              The entire experience at Dr. Smile was beyond my expectations. My smile looks natural and beautiful thanks to their expert care.
+            </blockquote>
+            <div class="patient">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&q=85" alt="Patient">
+              <div>
+                <h4>Rahul Menon</h4>
+                <p>Kochi, Kerala</p>
+              </div>
+              <span class="treatment-tag">Smile Makeover</span>
+            </div>
+          </article>
+
+          <article class="t-card">
+            <div class="quote">“</div>
+            <div class="stars">★★★★★</div>
+            <blockquote>
+              Professional, friendly and extremely knowledgeable team. My treatment was smooth and the results are simply fantastic.
+            </blockquote>
+            <div class="patient">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=85" alt="Patient">
+              <div>
+                <h4>Sneha Varghese</h4>
+                <p>Kochi, Kerala</p>
+              </div>
+              <span class="treatment-tag">Orthodontics</span>
+            </div>
+          </article>
+
+          <article class="t-card">
+            <div class="quote">“</div>
+            <div class="stars">★★★★★</div>
+            <blockquote>
+              Everything was explained clearly before treatment. I especially appreciated the attention to detail and the comfortable experience.
+            </blockquote>
+            <div class="patient">
+              <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=200&q=85" alt="Patient">
+              <div>
+                <h4>Meera Joseph</h4>
+                <p>Ernakulam, Kerala</p>
+              </div>
+              <span class="treatment-tag">Clear Aligners</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+
+      <button class="nav-btn nav-next" aria-label="Next testimonial">→</button>
+    </div>
+
+    <div class="slider-dots" id="sliderDots" aria-label="Choose a review group"></div>
+  </div>
+</section>
+
+
+
+<section class="drsmile-video-cta" id="smileCTA">
+  <video
+    id="ctaVideo"
+    class="cta-bg-video"
+    autoplay
+    muted
+    loop
+    playsinline
+    preload="metadata"
+  >
+    <source src="assets/video.mp4" type="video/mp4">
+  </video>
+
+  <div class="cta-overlay"></div>
+  <div class="cta-glow"></div>
+
+  <div class="cta-ring ring-1"></div>
+  <div class="cta-ring ring-2"></div>
+  <div class="cta-ring ring-3"></div>
+
+  <div class="cta-content">
+    <div class="cta-eyebrow">
+      <span></span>
+      Your Smile Journey Starts Here
+      <span></span>
+    </div>
+
+    <h2 class="cta-title">
+      Ready for a Smile
+      <br>
+      You’ll <em>Love?</em>
+    </h2>
+
+    <p class="cta-description">
+      Discover personalised orthodontic care with Dr Smile.
+      From Invisalign and clear aligners to complete smile makeovers,
+      every treatment begins with understanding you.
+    </p>
+
+    <div class="cta-buttons">
+      <a href="#contact" class="cta-btn cta-btn-primary">
+        Book Your Consultation
+        <span>→</span>
+      </a>
+
+      <a href="tel:+914842985200" class="cta-btn cta-btn-outline">
+        Call Dr Smile
+      </a>
+    </div>
+
+    <div class="cta-small-tag">
+      Precision&nbsp;&nbsp;•&nbsp;&nbsp;Care&nbsp;&nbsp;•&nbsp;&nbsp;Confidence
+    </div>
+  </div>
+
+  <button
+    class="video-control"
+    id="videoControl"
+    aria-label="Pause background video"
+  >
+    ❚❚
+  </button>
+</section>
+<footer class="site-footer">
+  <div class="wrap">
+
+    <div class="footer-grid">
+
+      <div class="footer-brand fade-up">
+        <img
+          class="footer-logo"
+          src="assets/logosmile.png"
+          alt="Dr. Smile Orthodontics and Multispecialty Dentistry"
+        >
+
+        <p class="brand-copy">
+          Creating healthy, confident smiles with advanced orthodontic care, personalised treatment and a patient-first approach.
+        </p>
+
+        <div class="socials">
+          <a href="https://wa.me/914842985200" aria-label="Chat with Dr. Smile on WhatsApp">
+            <span aria-hidden="true">◉</span>
+            <span>Chat on WhatsApp</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col fade-up">
+        <h4>Quick Links</h4>
+        <div class="footer-links">
+          <a href="#top">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="#our-services">Our Services</a>
+          <a href="#services">Invisalign</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#contact">Contact Us</a>
+        </div>
+      </div>
+
+      <div class="footer-col fade-up">
+        <h4>Our Services</h4>
+        <div class="footer-links">
+          <a href="#endodontics">Endodontics (Root Canal)</a>
+          <a href="#pediatric-dentistry">Pediatric Dentistry</a>
+          <a href="#digital-dentistry">Digital Dentistry</a>
+          <a href="#oral-surgery">Oral Surgery</a>
+          <a href="#cosmetic-dentistry">Cosmetic Dentistry</a>
+          <a href="#prosthodontics">Prosthodontics</a>
+          <a href="#implant-dentistry">Implant Dentistry</a>
+          <a href="#periodontics">Periodontics</a>
+        </div>
+      </div>
+
+      <div class="footer-col fade-up">
+        <h4>Treatments</h4>
+        <div class="footer-links">
+          <a href="orthodontics.html">Orthodontics</a>
+          <a href="orthodontics.html">Invisalign Treatment</a>
+          <a href="cosmetic-dentistry.html">Teeth Whitening</a>
+          <a href="implant-dentistry.html">Dental Implants</a>
+          <a href="prosthodontics.html">Crowns &amp; Bridges</a>
+          <a href="prosthodontics.html">Full Mouth Rehabilitation</a>
+        </div>
+      </div>
+
+      <div class="footer-col footer-contact fade-up" id="contact">
+        <h4>Contact & Support</h4>
+
+        <div class="contact-list">
+          <div class="contact-row">
+            <span class="contact-icon">⌖</span>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=Dr.+Smile+Kalamassery+Kochi+Kerala" target="_blank" rel="noopener noreferrer">Kalamassery, Pannampilly Nagar,<br>Kochi, Kerala, India – 682033</a>
+          </div>
+          <div class="contact-row">
+            <span class="contact-icon">☎</span>
+            <a href="tel:+914842985200">+91 484 298 5200</a>
+          </div>
+          <div class="contact-row">
+            <span class="contact-icon">✉</span>
+            <a href="mailto:info@drsmile.co.in">info@drsmile.co.in</a>
+          </div>
+          <div class="contact-row">
+            <span class="contact-icon">◷</span>
+            <span>Mon – Sat: 9:30 AM – 7:00 PM<br>Sunday: By Appointment</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="newsletter fade-up">
+      <div class="newsletter-copy">
+        <div class="newsletter-icon" aria-hidden="true">✦</div>
+        <div>
+          <h3>Let’s plan your smile</h3>
+          <p>Speak with our team to find the right next step for your dental care.</p>
+        </div>
+      </div>
+
+      <div class="footer-cta-actions">
+        <a class="footer-cta-primary" href="tel:+914842985200">Call the clinic <span aria-hidden="true">↗</span></a>
+        <a class="footer-cta-secondary" href="mailto:info@drsmile.co.in?subject=Consultation%20enquiry">Email our team <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div>
+        © 2026 Dr. Smile Orthodontics and Multispecialty Dentistry.
+      </div>
+
+      <div class="footer-location">
+        Specialist dental care in Kochi, Kerala
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<!-- <div class="sketchfab-embed-wrapper"> <iframe title="Teeth Aligners" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/3e6fa82aaa784d828680a55a75317606/embed"> </iframe> </div> -->
+  <script>
+    /* =========================================================
+       HERO VIDEO - keep WebM playing whenever possible
+    ========================================================= */
+    const video = document.querySelector('.hero-video');
+
+    function playHeroVideo() {
+      if (!video) return;
+      const promise = video.play();
+      if (promise && typeof promise.catch === 'function') {
+        promise.catch(() => {});
+      }
+    }
+
+    if (video) {
+      video.muted = true;
+      video.defaultMuted = true;
+      video.setAttribute('muted', '');
+      video.setAttribute('playsinline', '');
+
+      video.addEventListener('loadedmetadata', () => {
+        video.currentTime = 0;
+        playHeroVideo();
+      });
+
+      video.addEventListener('canplay', playHeroVideo);
+      video.addEventListener('pause', playHeroVideo);
+
+      document.addEventListener('visibilitychange', () => {
+        if (!document.hidden) playHeroVideo();
+      });
+
+      window.addEventListener('pageshow', playHeroVideo);
+      window.addEventListener('touchstart', playHeroVideo, { once: true, passive: true });
+      window.addEventListener('pointerdown', playHeroVideo, { once: true, passive: true });
+    }
+
+    /* =========================================================
+       MOBILE NAVIGATION
+    ========================================================= */
+    const mobileMenu = document.querySelector('.mobile-menu');
+    const navLinks = document.querySelector('.nav-links');
+
+    if (mobileMenu && navLinks) {
+      mobileMenu.addEventListener('click', () => {
+        const open = navLinks.classList.toggle('is-open');
+        mobileMenu.setAttribute('aria-expanded', String(open));
+        mobileMenu.textContent = open ? '✕' : '☰';
+      });
+
+      navLinks.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          navLinks.classList.remove('is-open');
+          mobileMenu.setAttribute('aria-expanded', 'false');
+          mobileMenu.textContent = '☰';
+        });
+      });
+    }
+
+    /* =========================================================
+       ALIGNER TRANSITION
+    ========================================================= */
+    const aligner = document.querySelector('.aligner-overlay');
+    const videoWrap = document.querySelector('.video-wrap');
+    const destinationArea = document.querySelector('.aligner-visual');
+    const destinationImage = document.querySelector('.aligner-section-image');
+    const hero = document.querySelector('.hero');
+
+    let sourceData = null;
+    let destinationData = null;
+    let alignerRatio = 1;
+    let ticking = false;
+
+    function clamp(value, min, max) {
+      return Math.max(min, Math.min(max, value));
+    }
+
+    function easeInOut(value) {
+      return value < 0.5
+        ? 4 * value * value * value
+        : 1 - Math.pow(-2 * value + 2, 3) / 2;
+    }
+
+    function getDocumentRect(element) {
+      const rect = element.getBoundingClientRect();
+      return {
+        left: rect.left + window.scrollX,
+        top: rect.top + window.scrollY,
+        width: rect.width,
+        height: rect.height
+      };
+    }
+
+    function updateAlignerRatio() {
+      if (aligner && aligner.naturalWidth && aligner.naturalHeight) {
+        alignerRatio = aligner.naturalHeight / aligner.naturalWidth;
+      }
+    }
+
+    function calculatePositions() {
+      if (!aligner || !videoWrap || !destinationArea) return;
+
+      updateAlignerRatio();
+
+      /* Start: exact center of hero video area */
+      const sourceRect = getDocumentRect(videoWrap);
+      if (video) {
+        const videoRect = getDocumentRect(video);
+        sourceRect.left = videoRect.left + videoRect.width / 2 - sourceRect.width / 2;
+        sourceRect.top = videoRect.top + videoRect.height / 2 - sourceRect.height / 2;
+      }
+      const sourceWidth = sourceRect.width * (window.innerWidth <= 600 ? 0.72 : 0.62);
+      const sourceHeight = sourceWidth * alignerRatio;
+
+      sourceData = {
+        left: sourceRect.left + sourceRect.width / 2 - sourceWidth / 2,
+        top: sourceRect.top + sourceRect.height / 2 - sourceHeight / 2,
+        width: sourceWidth,
+        height: sourceHeight
+      };
+
+      /* Destination: exact center of right visual area */
+      const targetRect = getDocumentRect(destinationArea);
+      const maxTargetWidth = window.innerWidth <= 600 ? 290 : 360;
+      const targetWidth = Math.min(
+        targetRect.width * (window.innerWidth <= 600 ? 0.78 : 0.55),
+        maxTargetWidth
+      );
+      const targetHeight = targetWidth * alignerRatio;
+
+      destinationData = {
+        left: targetRect.left + targetRect.width / 2 - targetWidth / 2,
+        top: targetRect.top + targetRect.height / 2 - targetHeight / 2,
+        width: targetWidth,
+        height: targetHeight
+      };
+    }
+
+    function getTransitionRange() {
+      const vh = window.innerHeight;
+      const sourceCenter = sourceData.top + sourceData.height / 2;
+      const targetCenter = destinationData.top + destinationData.height / 2;
+
+      /*
+        Desktop: begin while hero is still visible and finish
+        when the second section is comfortably in view.
+
+        Mobile: use a slightly longer range because the sections
+        are stacked vertically and the visual target is lower.
+      */
+      const isMobile = window.innerWidth <= 900;
+
+      const startScroll = Math.max(
+        0,
+        sourceCenter - vh * (isMobile ? 0.35 : 0.28)
+      );
+
+      const targetArrival =
+        targetCenter - vh * (isMobile ? 0.52 : 0.50);
+
+      const minDistance = vh * (isMobile ? 0.65 : 0.55);
+      const endScroll = Math.max(
+        startScroll + minDistance,
+        targetArrival
+      );
+
+      return { startScroll, endScroll };
+    }
+
+    function updateAligner() {
+      if (!aligner || !sourceData || !destinationData) return;
+
+      const { startScroll, endScroll } = getTransitionRange();
+      const distance = Math.max(1, endScroll - startScroll);
+
+      let progress = (window.scrollY - startScroll) / distance;
+      progress = clamp(progress, 0, 1);
+
+      const smooth = easeInOut(progress);
+
+      const startLeft = sourceData.left - window.scrollX;
+      const startTop = sourceData.top - window.scrollY;
+      const endLeft = destinationData.left - window.scrollX;
+      const endTop = destinationData.top - window.scrollY;
+
+      const left = startLeft + (endLeft - startLeft) * smooth;
+      const top = startTop + (endTop - startTop) * smooth;
+      const width = sourceData.width + (destinationData.width - sourceData.width) * smooth;
+
+      let opacity;
+      if (progress <= 0) {
+        opacity = 0;
+      } else if (progress < 0.10) {
+        opacity = progress / 0.10;
+      } else {
+        opacity = 1;
+      }
+
+      aligner.style.left = `${left}px`;
+      aligner.style.top = `${top}px`;
+      aligner.style.width = `${width}px`;
+      aligner.style.height = 'auto';
+      aligner.style.opacity = opacity;
+
+      /* At the destination, keep the moving PNG visible exactly
+         where the stationary image will be. */
+      if (progress >= 0.995) {
+        aligner.style.left = `${endLeft}px`;
+        aligner.style.top = `${endTop}px`;
+        aligner.style.width = `${destinationData.width}px`;
+        aligner.style.opacity = '1';
+
+        if (destinationImage) {
+          destinationImage.style.visibility = 'hidden';
+          destinationImage.style.opacity = '0';
+        }
+      } else if (destinationImage) {
+        destinationImage.style.visibility = 'hidden';
+        destinationImage.style.opacity = '0';
+      }
+    }
+
+    function requestAlignerUpdate() {
+      if (ticking) return;
+      ticking = true;
+      window.requestAnimationFrame(() => {
+        updateAligner();
+        ticking = false;
+      });
+    }
+
+    function refreshAligner() {
+      calculatePositions();
+      updateAligner();
+    }
+
+    if (aligner) {
+      if (aligner.complete) {
+        refreshAligner();
+      } else {
+        aligner.addEventListener('load', refreshAligner, { once: true });
+      }
+    }
+
+    window.addEventListener('load', () => {
+      playHeroVideo();
+      refreshAligner();
+    });
+
+    window.addEventListener('resize', refreshAligner);
+    window.addEventListener('orientationchange', () => {
+      setTimeout(refreshAligner, 100);
+    });
+    window.addEventListener('scroll', requestAlignerUpdate, { passive: true });
+
+    /* Recalculate after fonts/layout settle */
+    setTimeout(refreshAligner, 150);
+    setTimeout(refreshAligner, 500);
+  </script>
+
+<script>
+  // Scroll reveal
+  const revealObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.classList.add('visible','is-visible');
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.16 });
+
+  document.querySelectorAll('.fade-up, .reveal').forEach(el => revealObserver.observe(el));
+
+
+  // Testimonial Slider
+  const track = document.getElementById('testimonialTrack');
+  const cards = [...track.querySelectorAll('.t-card')];
+  const dotsWrap = document.getElementById('sliderDots');
+  const prev = document.querySelector('.nav-prev');
+  const next = document.querySelector('.nav-next');
+
+  let current = 0;
+
+  function visibleCount(){
+    if(window.innerWidth <= 720) return 1;
+    if(window.innerWidth <= 1000) return 2;
+    return 3;
+  }
+
+  function maxIndex(){
+    return Math.max(0, cards.length - visibleCount());
+  }
+
+  function buildDots(){
+    dotsWrap.innerHTML = '';
+    const count = maxIndex() + 1;
+
+    for(let i = 0; i < count; i++){
+      const dot = document.createElement('button');
+      dot.className = 'slider-dot';
+      dot.setAttribute('aria-label', `Go to slide ${i + 1}`);
+      dot.addEventListener('click', () => {
+        current = i;
+        updateSlider();
+      });
+      dotsWrap.appendChild(dot);
+    }
+  }
+
+  function updateSlider(){
+    current = Math.min(current, maxIndex());
+
+    const gap = parseFloat(getComputedStyle(track).gap) || 22;
+    const cardWidth = cards[0].getBoundingClientRect().width;
+
+    track.style.transform = `translateX(-${current * (cardWidth + gap)}px)`;
+
+    cards.forEach(card => card.classList.remove('is-active'));
+
+    const activeCard = cards[Math.min(current + Math.floor(visibleCount()/2), cards.length - 1)];
+    activeCard?.classList.add('is-active');
+
+    [...dotsWrap.children].forEach((dot,i) => {
+      dot.classList.toggle('active', i === current);
+      dot.setAttribute('aria-current', i === current ? 'true' : 'false');
+    });
+    cards.forEach((card, i) => {
+      card.setAttribute('aria-hidden', String(i < current || i >= current + visibleCount()));
+    });
+  }
+
+  next.addEventListener('click', () => {
+    current = current >= maxIndex() ? 0 : current + 1;
+    updateSlider();
+  });
+
+  prev.addEventListener('click', () => {
+    current = current <= 0 ? maxIndex() : current - 1;
+    updateSlider();
+  });
+
+  document.querySelector('.testimonial-viewport').addEventListener('keydown', (event) => {
+    if (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight') return;
+    event.preventDefault();
+    (event.key === 'ArrowRight' ? next : prev).click();
+  });
+
+  buildDots();
+  updateSlider();
+
+  window.addEventListener('resize', () => {
+    buildDots();
+    updateSlider();
+  });
+
+
+
+
+
+
+  
+</script>
+
+<script>
+  const ctaVideo = document.querySelector('#ctaVideo');
+  const videoControl = document.querySelector('#videoControl');
+
+  if (ctaVideo) {
+    ctaVideo.muted = true;
+    ctaVideo.defaultMuted = true;
+
+    const playCtaVideo = () => {
+      const playback = ctaVideo.play();
+      if (playback && typeof playback.catch === 'function') playback.catch(() => {});
+    };
+
+    const updateVideoControl = () => {
+      if (!videoControl) return;
+      videoControl.textContent = ctaVideo.paused ? '▶' : '❚❚';
+      videoControl.setAttribute('aria-label', ctaVideo.paused ? 'Play background video' : 'Pause background video');
+    };
+
+    updateVideoControl();
+
+    if (ctaVideo.readyState >= 2) playCtaVideo();
+    else ctaVideo.addEventListener('canplay', playCtaVideo, { once: true });
+
+    ctaVideo.addEventListener('play', updateVideoControl);
+    ctaVideo.addEventListener('pause', updateVideoControl);
+
+    videoControl?.addEventListener('click', () => {
+      if (ctaVideo.paused) playCtaVideo();
+      else ctaVideo.pause();
+    });
+  }
+</script>
+
+<script>
+  /* Fourth-section split-image parallax */
+  (() => {
+    const section = document.querySelector('.aligner-split-section');
+    const visuals = section?.querySelectorAll('[data-parallax]');
+    if (!section || !visuals?.length) return;
+
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduceMotion) return;
+
+    let raf = 0;
+
+    section.addEventListener('mousemove', (event) => {
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(() => {
+        const rect = section.getBoundingClientRect();
+        const x = (event.clientX - rect.left) / rect.width - 0.5;
+        const y = (event.clientY - rect.top) / rect.height - 0.5;
+
+        visuals.forEach((visual) => {
+          const direction = visual.dataset.parallax === 'left' ? -1 : 1;
+          visual.style.transform = `translate3d(${x * 12 * direction}px, ${y * 8}px, 0)`;
+        });
+      });
+    });
+
+    section.addEventListener('mouseleave', () => {
+      visuals.forEach((visual) => {
+        visual.style.transform = 'translate3d(0,0,0)';
+      });
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) entry.target.classList.add('is-visible');
+      });
+    }, { threshold: 0.18 });
+
+    observer.observe(section);
+  })();
+</script>
+
+<script type="module" src="aligner-viewer.js"></script>
+  <script src="site-footer.js"></script>
+</body>
+</html>

@@ -1,0 +1,473 @@
+body.services-page .service-page-hero {
+  min-height: 0;
+}
+
+body.services-page .services-hero-content {
+  align-items: center;
+  min-height: 560px;
+  padding-top: 32px;
+  padding-bottom: 44px;
+}
+
+body.services-page .services-hero-content .copy {
+  max-width: 680px;
+  padding-bottom: 24px;
+}
+
+body.services-page .services-hero-content .eyebrow {
+  color: #a6650b;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.25;
+  margin-bottom: 12px;
+}
+
+body.services-page .services-hero-content h1 {
+  max-width: 640px;
+  color: #4e2c17;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: .98;
+  letter-spacing: 0;
+}
+
+body.services-page .services-hero-content .subhead {
+  margin-top: 16px;
+  color: #5b351c;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.12;
+}
+
+body.services-page .services-hero-content .description {
+  max-width: 570px;
+}
+
+body.services-page .services-hero-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 18px 24px;
+  margin-top: 24px;
+}
+
+body.services-page .services-hero-primary {
+  gap: 12px;
+  text-decoration: none;
+}
+
+body.services-page .services-hero-primary span {
+  font-size: 17px;
+  transition: transform .2s ease;
+}
+
+body.services-page .services-hero-primary:hover span {
+  transform: translate(2px, -2px);
+}
+
+body.services-page .services-hero-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #a6650b;
+  color: #7b4a10;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+body.services-page .services-hero-link span {
+  font-size: 18px;
+  transition: transform .2s ease;
+}
+
+body.services-page .services-hero-link:hover span {
+  transform: translateY(3px);
+}
+
+body.services-page .services-hero-proof {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  max-width: 620px;
+  margin-top: 32px;
+  padding-top: 17px;
+  border-top: 1px solid rgba(91,53,28,.22);
+}
+
+body.services-page .services-hero-proof div {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+body.services-page .services-hero-proof strong {
+  color: #8b5207;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+body.services-page .services-hero-proof span {
+  color: #756354;
+  font-size: 11px;
+  line-height: 1.35;
+}
+
+body.services-page .services-video-wrap {
+  align-self: center;
+  width: min(100%, 580px);
+  height: 500px;
+  aspect-ratio: auto;
+  margin-bottom: 0;
+}
+
+body.services-page .services-hero-image {
+  position: relative;
+  z-index: 1;
+  width: min(94%, 580px);
+  max-height: 500px;
+  object-fit: contain;
+  filter: drop-shadow(0 24px 30px rgba(76,48,22,.16));
+  animation: services-hero-float 5s ease-in-out infinite;
+}
+
+body.services-page .services-hero-image-caption {
+  position: absolute;
+  z-index: 2;
+  left: 4%;
+  bottom: 6%;
+  width: min(230px, 48%);
+  padding: 13px 15px;
+  border-left: 3px solid #a6650b;
+  background: rgba(255,253,249,.9);
+  box-shadow: 0 12px 28px rgba(76,48,22,.1);
+}
+
+body.services-page .services-hero-image-caption span {
+  display: block;
+  margin-bottom: 6px;
+  color: #a6650b;
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: .1em;
+}
+
+body.services-page .services-hero-image-caption strong {
+  color: #4e2c17;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+@keyframes services-hero-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-9px); }
+}
+
+@media (max-width: 1150px) {
+  body.services-page .brand-logo {
+    width: 80px;
+  }
+
+  body.services-page .services-hero-content {
+    min-height: 500px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+  }
+
+  body.services-page .services-hero-content h1 {
+    font-size: 52px;
+  }
+
+  body.services-page .services-hero-content .subhead {
+    font-size: 24px;
+  }
+
+  body.services-page .services-video-wrap {
+    height: 440px;
+  }
+
+  body.services-page .services-hero-image-caption {
+    width: 180px;
+  }
+}
+
+body.services-page .services-video-wrap .hero-video {
+  width: 94%;
+  transform: translateY(-48px);
+}
+
+body.services-page .services-page-directory {
+  padding-top: 84px;
+  padding-bottom: 92px;
+}
+
+body.services-page .services-page-directory .services-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+body.services-page .services-page-directory .service-card {
+  min-height: 390px;
+}
+
+body.services-page .treatment-options {
+  padding: 84px 24px 92px;
+  background: linear-gradient(120deg, #fffdf9 0%, #fbf5e9 55%, #f0d8ad 100%);
+}
+
+body.services-page .treatment-options-inner {
+  width: min(1320px, 100%);
+  margin: 0 auto;
+}
+
+body.services-page .treatment-options .services-heading {
+  margin-bottom: 30px;
+}
+
+body.services-page .treatment-options-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 48px;
+  border-top: 1px solid rgba(91,53,28,.24);
+}
+
+body.services-page .treatment-options-grid a {
+  min-width: 0;
+  min-height: 82px;
+  display: grid;
+  grid-template-columns: 38px minmax(0, 1fr) auto 20px;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1px solid rgba(91,53,28,.2);
+  color: #3d2416;
+  transition: color .2s ease;
+}
+
+body.services-page .treatment-options-grid a > span {
+  color: #a6650b;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+body.services-page .treatment-options-grid strong {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+body.services-page .treatment-options-grid small {
+  color: #756354;
+  font-size: 12px;
+}
+
+body.services-page .treatment-options-grid b {
+  color: #a6650b;
+  font-size: 17px;
+  transition: transform .2s ease;
+}
+
+body.services-page .treatment-options-grid a:hover {
+  color: #a6650b;
+}
+
+body.services-page .treatment-options-grid a:hover b {
+  transform: translate(3px, -3px);
+}
+
+body.services-page .treatment-contact {
+  width: fit-content;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+body.services-page .service-card.fade-up {
+  transition-delay: 0s;
+}
+
+body.services-page .fade-up,
+body.services-page .service-card {
+  opacity: 1;
+  transform: none;
+  animation: services-page-rise .72s ease both;
+}
+
+body.services-page .services-grid .service-card:nth-child(3n + 2) {
+  animation-delay: .1s;
+}
+
+body.services-page .services-grid .service-card:nth-child(3n + 3) {
+  animation-delay: .2s;
+}
+
+@keyframes services-page-rise {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 1000px) {
+  body.services-page .services-hero-content {
+    min-height: 0;
+    padding-top: 48px;
+    padding-bottom: 58px;
+  }
+
+  body.services-page .services-hero-content h1 {
+    font-size: 56px;
+  }
+
+  body.services-page .services-hero-content .subhead {
+    font-size: 27px;
+  }
+
+  body.services-page .services-page-directory .services-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  body.services-page .services-page-directory .service-card {
+    min-height: 360px;
+  }
+
+  body.services-page .treatment-options-grid {
+    column-gap: 28px;
+  }
+}
+
+@media (max-width: 720px) {
+  body.services-page .nav {
+    padding: 5px 18px;
+  }
+
+  body.services-page .brand-logo {
+    width: 70px;
+  }
+
+  body.services-page .services-hero-content {
+    padding-top: 22px;
+    padding-bottom: 20px;
+  }
+
+  body.services-page .services-hero-content .copy {
+    padding-bottom: 8px;
+  }
+
+  body.services-page .services-hero-content .eyebrow {
+    font-size: 14px;
+  }
+
+  body.services-page .services-hero-content h1 {
+    font-size: 48px;
+  }
+
+  body.services-page .services-video-wrap {
+    width: min(100%, 620px);
+    height: 230px;
+    min-height: 230px;
+    aspect-ratio: auto;
+    margin-bottom: 0;
+  }
+
+  body.services-page .services-hero-content .eyebrow {
+    font-size: 14px;
+  }
+
+  body.services-page .services-hero-content .subhead {
+    margin-top: 8px;
+    font-size: 20px;
+  }
+
+  body.services-page .services-hero-actions {
+    gap: 12px 18px;
+    margin-top: 16px;
+  }
+
+  body.services-page .services-hero-image {
+    width: min(78%, 320px);
+    max-height: 210px;
+  }
+
+  body.services-page .services-hero-image-caption {
+    bottom: 2%;
+    width: min(205px, 54%);
+    padding: 10px 12px;
+  }
+
+  body.services-page .services-hero-proof {
+    gap: 8px;
+    margin-top: 14px;
+    padding-top: 10px;
+  }
+
+  body.services-page .services-hero-proof div {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  body.services-page .services-hero-proof strong {
+    font-size: 23px;
+  }
+
+  body.services-page .services-page-directory {
+    padding: 64px 18px 72px;
+  }
+
+  body.services-page .services-page-directory .services-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  body.services-page .services-page-directory .service-card {
+    min-height: 320px;
+  }
+
+  body.services-page .treatment-options {
+    padding: 64px 18px 72px;
+  }
+
+  body.services-page .treatment-options-grid {
+    grid-template-columns: 1fr;
+  }
+
+  body.services-page .treatment-options-grid a {
+    grid-template-columns: 32px minmax(0, 1fr) 20px;
+    gap: 10px;
+  }
+
+  body.services-page .treatment-options-grid small {
+    grid-column: 2;
+    grid-row: 2;
+    padding-bottom: 13px;
+  }
+
+  body.services-page .treatment-options-grid b {
+    grid-column: 3;
+    grid-row: 1 / 3;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body.services-page .fade-up,
+  body.services-page .service-card {
+    opacity: 1;
+    transform: none;
+    animation: none;
+  }
+
+  body.services-page .services-hero-link span,
+  body.services-page .services-hero-primary span,
+  body.services-page .services-hero-image,
+  body.services-page .treatment-options-grid a,
+  body.services-page .treatment-options-grid b {
+    transition: none;
+  }
+}
