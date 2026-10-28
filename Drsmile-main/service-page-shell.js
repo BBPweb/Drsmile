@@ -14,7 +14,7 @@ if (shellRoot) {
           <a class="active" href="services.html">Services</a>
           <a href="index.html#about">About Us</a>
           <a href="faq.html">Faq's</a>
-          <a href="index.html#services">Treatments</a>
+          
           <a class="contact-btn" href="contact.html">Contact Us</a>
         </nav>
         <button class="mobile-menu" aria-label="Open menu" aria-expanded="false">&#9776;</button>
