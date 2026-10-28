@@ -2350,11 +2350,13 @@ h2,
   isolation: isolate;
   min-height: 760px;
   overflow: hidden;
-  color: #fff8ee;
-  background:
-    radial-gradient(circle at 18% 42%, rgba(207,146,70,.22), transparent 28%),
-    radial-gradient(circle at 82% 48%, rgba(219,164,89,.18), transparent 28%),
-    linear-gradient(110deg, #4b220f 0%, #321609 48%, #281006 100%);
+  color: #382419;
+  background-color: #efd6b3;
+  /* Optimized WebP derived from the supplied 1980x865 image. */
+  background-image: url("data:image/webp;base64,UklGRp4BAABXRUJQVlA4IJIBAAAwFQCdASqQAa8APpVKoE2npCMiICgY8BKJaW7fukmyCMGH0u8ASC4Q/U6tE+/PXo0I4OJv5nV5ryAGC8R996r+y8MO34R8QFBDidaDLKx1RwwpZFHxMfdDWiz/XlHp1gHM4jZOkE7Ir6fdEKE+rJFzcynx3JzV4DKwf7NBJ45hJ4h/bd1XbBRUAqyZoIbIa5xvsfnYuxBOOQQ70/DKismaCGqpNk6/yVgYu/UcQ6qk2QQAAP70DFnAhzP+qtzdK5PC7QQlwUNGxxYZgNO6vLuHQYPW0BUA6DDm89y66sJOdFTONs/NQYlJIVkgowyic4mY2AGEBexLBdEo+jr8haGAes6w1o3IWNihWY0sCJKngjsxOpfntmZ5omdyU4Q/4r0c40yw7+lx1zbuPoc20ZE9IAihFOli6yfU3xNRZcI7Pfuhplm+1TsNsm3sxfDdm/kI3Zh0A4CA3ssghN01ETMP1tV5zW3tFc5PdvqQCXwBnh5C7RIMZ8TADPuuZgFSEZgbJsgACl+z6HrDi7CAAAAAAAA=");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .aligner-split-inner {
@@ -2454,7 +2456,7 @@ h2,
   align-items: center;
   gap: 13px;
   margin: 0 0 24px;
-  color: #e3bb78;
+  color: #85532d;
   font-size: 11px;
   font-weight: 600;
   letter-spacing: 6px;
@@ -2482,14 +2484,14 @@ h2,
 }
 
 .aligner-split-content h2 em {
-  color: #e5b96f;
+  color: #81502d;
   font-style: normal;
 }
 
 .aligner-split-description {
   max-width: 520px;
   margin: 27px 0 0;
-  color: rgba(255,247,237,.76);
+  color: rgba(56,36,25,.82);
   font-size: 15px;
   line-height: 1.75;
 }
@@ -2502,7 +2504,7 @@ h2,
   padding: 13px 15px 13px 22px;
   border: 1px solid rgba(228,183,111,.75);
   border-radius: 999px;
-  color: #fff8ee;
+  color: #382419;
   text-decoration: none;
   font-size: 13px;
   background: rgba(255,255,255,.035);
@@ -2545,8 +2547,8 @@ h2,
   align-items: center;
   gap: 10px;
   padding: 0 14px;
-  border-right: 1px solid rgba(255,255,255,.18);
-  color: rgba(255,248,239,.8);
+  border-right: 1px solid rgba(88,54,31,.22);
+  color: rgba(56,36,25,.85);
   font-size: 10px;
   line-height: 1.35;
 }
