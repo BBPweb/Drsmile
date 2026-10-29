@@ -2277,15 +2277,15 @@
   flex-shrink: 0;
   align-self: center;
   width: 100%;
-  max-width: 260px;
-  height: 170px;
+  /* max-width: 260px;
+  height: 170px; */
   margin: 14px 0 20px;
   object-fit: contain;
   filter: drop-shadow(0 10px 12px rgba(76, 48, 22, .12));
   transition: transform .45s ease;
 }
 
-.service-card:hover .service-image { transform: translateY(-5px) rotate(-3deg); }
+/* .service-card:hover .service-image { transform: translateY(-5px) rotate(-3deg); } */
 
 .drsmile-video-cta { background: #2d1409; }
 
