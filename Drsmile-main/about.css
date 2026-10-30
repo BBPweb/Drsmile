@@ -415,11 +415,7 @@
 .journey-step:nth-child(1) { padding-top: 45px; }
 .journey-step:nth-child(2) { padding-top: 11px; }
 .journey-step:nth-child(3) { padding-top: 7px; }
-.journey-image { width: 100%; aspect-ratio: 1; margin: 0 auto 13px; overflow: hidden; border: 1px solid #edd3ab; border-radius: 50%; background-color: #f4e7d1; background-image: url("assets/aligner-journey.png"); background-repeat: no-repeat; background-size: 400% auto; box-shadow: 0 8px 30px rgba(152, 108, 48, .06), inset 0 0 15px rgba(255, 250, 233, .6); }
-.journey-image-consultation { background-position: 0% center; }
-.journey-image-plan { background-position: 33.3333% center; }
-.journey-image-aligners { background-position: 66.6667% center; }
-.journey-image-smile { background-position: 100% center; }
+.journey-image { display: block; width: 100%; aspect-ratio: 1; margin: 0 auto 13px; border: 1px solid #edd3ab; border-radius: 50%; background-color: #f4e7d1; object-fit: cover; box-shadow: 0 8px 30px rgba(152, 108, 48, .06), inset 0 0 15px rgba(255, 250, 233, .6); }
 .journey-number { display: block; margin-bottom: 5px; color: #ac692d; font-size: 14px; }
 .journey-step h3 { margin: 0; color: #866b53; font-size: 13px; font-weight: 400; line-height: 1.45; }
 @media (max-width: 1000px) {
