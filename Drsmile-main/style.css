@@ -102,6 +102,10 @@
         linear-gradient(120deg, #fffdf9 0%, #fbf5e9 48%, #f0d8ad 100%);
     }
 
+    .hero.home-page-hero {
+      background: url("assets/Soft Creamy Gold Gradient Glow.png") center / cover no-repeat;
+    }
+
     .hero::before {
       content: "";
       position: absolute;
@@ -130,9 +134,9 @@
     .nav {
       position: relative;
       z-index: 20;
-      display: flex;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
       align-items: center;
-      justify-content: space-between;
       width: 100%;
       max-width: 1440px;
       margin: 0 auto;
@@ -151,7 +155,7 @@
 
     .brand-logo {
       display: block;
-      width: clamp(95px, 10vw, 145px);
+      width: clamp(95px, 8vw, 145px);
       height: auto;
     }
 
@@ -159,6 +163,11 @@
       display: flex;
       align-items: center;
       gap: clamp(20px, 2.8vw, 42px);
+    }
+
+    .nav-links .contact-btn {
+      position: absolute;
+      right: clamp(20px, 4vw, 54px);
     }
 
     .nav-links a {
@@ -188,6 +197,7 @@
 
     .mobile-menu {
       display: none;
+      justify-self: end;
       width: 42px;
       height: 42px;
       border: 0;
@@ -208,7 +218,7 @@
       flex: 1;
       min-height: auto;
       margin: 0 auto;
-        padding: 20px clamp(24px, 4vw, 54px) 0;
+        padding: 20px clamp(24px, 3vw, 44px) 0;
       display: grid;
       grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
       gap: clamp(25px, 4vw, 65px);
@@ -228,7 +238,7 @@
 
     h1 {
       margin: 0;
-          font-size: clamp(40px, 6.1vw, 76px);
+          font-size: clamp(40px, 6.1vw, 52px);
       line-height: .98;
       letter-spacing: -.04em;
       color: #4e2c17;
@@ -481,6 +491,8 @@
       }
 
       .nav-links .contact-btn {
+        position: static;
+        right: auto;
         margin-top: 6px;
         justify-content: center;
       }
@@ -2813,4 +2825,3 @@ h2,
   .aligner-split-spark,
   .aligner-split-progress b { animation: none; }
 }
-
