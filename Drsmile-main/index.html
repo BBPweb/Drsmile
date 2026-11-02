@@ -51,18 +51,14 @@
   src="assets/Crystalclear.png"
   alt="Teeth aligner"
 />
-        <video
-          class="hero-video"
-          autoplay
-          muted
-          loop
-          playsinline
-          preload="auto"
-          aria-label="Dental animation"
-        >
-          <source src="assets/hero.webm" type="video/webm" />
-          Your browser does not support WebM video.
-        </video>
+        
+<img
+  class="hero-video"
+  src="assets/teethscn3.gif"
+  alt="Dental animation"
+  loading="eager"
+  fetchpriority="high"
+/>
         <span class="video-badge">Precision · Care · Confidence</span>
       </div>
     </section>
@@ -182,7 +178,7 @@ Wires and brackets are no longer the only way to align your teeth. Invisalign us
 
       <div class="why-feature">
         <div class="why-feature-icon">
-          ♧
+          <img src="assets/Care that follows you abroad.svg" alt="" aria-hidden="true">
         </div>
 
         <div>
@@ -197,7 +193,7 @@ Wires and brackets are no longer the only way to align your teeth. Invisalign us
 
       <div class="why-feature">
         <div class="why-feature-icon">
-          ♧
+          <img src="assets/Precision you can see.svg" alt="" aria-hidden="true">
         </div>
 
         <div>
@@ -212,7 +208,7 @@ Wires and brackets are no longer the only way to align your teeth. Invisalign us
 
       <div class="why-feature">
         <div class="why-feature-icon">
-          ◉
+          <img src="assets/Specialists who plan together.svg" alt="" aria-hidden="true">
         </div>
 
         <div>
@@ -667,42 +663,16 @@ Thank you so much for giving me a smile I can finally feel confident about. Your
 
 <!-- <div class="sketchfab-embed-wrapper"> <iframe title="Teeth Aligners" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/3e6fa82aaa784d828680a55a75317606/embed"> </iframe> </div> -->
   <script>
-    /* =========================================================
-       HERO VIDEO - keep WebM playing whenever possible
-    ========================================================= */
-    const video = document.querySelector('.hero-video');
+  /* =========================================================
+   HERO GIF - Google Drive
+========================================================= */
+const video = document.querySelector('.hero-video');
 
-    function playHeroVideo() {
-      if (!video) return;
-      const promise = video.play();
-      if (promise && typeof promise.catch === 'function') {
-        promise.catch(() => {});
-      }
-    }
-
-    if (video) {
-      video.muted = true;
-      video.defaultMuted = true;
-      video.setAttribute('muted', '');
-      video.setAttribute('playsinline', '');
-
-      video.addEventListener('loadedmetadata', () => {
-        video.currentTime = 0;
-        playHeroVideo();
-      });
-
-      video.addEventListener('canplay', playHeroVideo);
-      video.addEventListener('pause', playHeroVideo);
-
-      document.addEventListener('visibilitychange', () => {
-        if (!document.hidden) playHeroVideo();
-      });
-
-      window.addEventListener('pageshow', playHeroVideo);
-      window.addEventListener('touchstart', playHeroVideo, { once: true, passive: true });
-      window.addEventListener('pointerdown', playHeroVideo, { once: true, passive: true });
-    }
-
+if (video) {
+  video.addEventListener('load', () => {
+    refreshAligner();
+  });
+}
     /* =========================================================
        MOBILE NAVIGATION
     ========================================================= */
@@ -911,9 +881,8 @@ Thank you so much for giving me a smile I can finally feel confident about. Your
     }
 
     window.addEventListener('load', () => {
-      playHeroVideo();
-      refreshAligner();
-    });
+  refreshAligner();
+});
 
     window.addEventListener('resize', refreshAligner);
     window.addEventListener('orientationchange', () => {
