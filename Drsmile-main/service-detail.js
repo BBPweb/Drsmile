@@ -2,7 +2,7 @@ const serviceData = {
   orthodontics: {
     title: 'Orthodontics',
     short: 'Braces & Clear Aligners',
-    image: 'assets/services/braces-orthodontics.png',
+    image: 'assets/Orthodontics.webp',
     lead: "Orthodontics Text: Orthodontic care can improve the alignment of your teeth and the way your bite works. At Dr. Smile, every treatment plan is shaped around your needs and your smile goals, and guided by a specialist from your first assessment to your final result.",
     meta: ["Braces","Clear Aligners","Smile Planning"],
     overview: ["Orthodontics focuses on the position of your teeth and the way your upper and lower teeth meet. Careful alignment helps create a healthier, more balanced smile that is easier to look after.","Treatment can include braces or clear aligners, selected after an individual assessment and a conversation about your goals.","Your care plan includes progress reviews and guidance from your first consultation to the care that keeps your results in place."],
@@ -20,7 +20,7 @@ const serviceData = {
   endodontics: {
     title: 'Endodontics',
     short: 'Root Canal Care',
-    image: 'assets/services/endodontics.png',
+    image: 'assets/endontics.png',
     lead: "Endodontics Root canal treatment is designed to relieve pain, protect your natural tooth and restore long-term function when the inner part of the tooth is infected or inflamed. At Dr. Smile, every step is explained, so you know what to expect before treatment begins.",
     meta: ["Pain Relief","Tooth Preservation","Precision Care"],
     overview: ["Root canal therapy is recommended when the pulp inside a tooth becomes inflamed or infected, often because of deep decay, cracks or trauma.","During treatment, the infected tissue is carefully removed, the canals are cleaned and shaped, and the tooth is sealed to help prevent reinfection.","Modern endodontic care focuses on comfort, clarity and preserving your natural tooth whenever possible."],
@@ -42,7 +42,7 @@ const serviceData = {
   'pediatric-dentistry': {
     title: 'Pediatric Dentistry',
     short: 'Children\'s Dental Care',
-    image: 'assets/services/pediatric-dentistry.png',
+    image: 'assets/services/PediatricDentistry.webp',
     lead: "Pediatric Dentistry Children benefit most from care that feels calm, reassuring and suited to their age. At Dr. Smile, we focus on prevention, education and gentle treatment, so every visit helps your child feel comfortable and confident.",
     meta: ["Gentle Care","Prevention","Confidence Building"],
     overview: ["Our paediatric care supports healthy smiles from the earliest years, helping children feel comfortable at every visit.","Routine check-ups, cleanings and preventive care are paired with education, helping families build strong oral health habits at home.","We create a friendly environment that encourages confidence and long-term dental wellbeing."],
@@ -64,7 +64,7 @@ const serviceData = {
   'digital-dentistry': {
     title: 'Digital Dentistry',
     short: 'Digital Dental Care',
-    image: 'assets/services/digital-dentistry.png',
+    image: 'assets/DigitalDentistry.webp',
     lead: "Digital Dentistry Digital dentistry uses advanced imaging and technology to improve accuracy, reduce treatment uncertainty and create more predictable outcomes. At Dr. Smile, digital tools help you see and understand your plan before treatment begins.",
     meta: ["3D Planning","Precision","Efficiency"],
     overview: ["Digital tools such as intraoral scanning and modern imaging help us plan treatment with greater clarity and precision.","This approach supports tailored treatment decisions and more comfortable care, from consultation through completion.","Technology helps both clinicians and patients better understand every step of the treatment journey."],
@@ -86,7 +86,7 @@ const serviceData = {
   'oral-surgery': {
     title: 'Oral Surgery',
     short: 'Surgical Care',
-    image: 'assets/services/oral-surgery.png',
+    image: 'assets/Oral Surgery.webp',
     lead: "Oral Surgery Text: Oral surgery involves carefully planned procedures that address complex dental issues while prioritising patient comfort and healing. At Dr. Smile, you are guided clearly before and after your procedure, so you know what to expect.",
     meta: ["Care Planning","Comfort Focused","Recovery Support"],
     overview: ["Surgical care may be recommended for tooth extraction, impacted teeth or more advanced treatment planning needs.","Every procedure is approached with attention to complexity, safety and a smooth recovery process.","We guide patients through each phase with clear information and personalised care."],
@@ -108,7 +108,7 @@ const serviceData = {
   'cosmetic-dentistry': {
     title: 'Cosmetic Dentistry',
     short: 'Smile Enhancement',
-    image: 'assets/services/cosmetic-dentistry.png',
+    image: 'assets/Cosmetic Dentistry and Smile Design.webp',
     lead: "Cosmetic Dentistry Text: Cosmetic dentistry creates beautiful, natural-looking smiles by combining artistry with function, balance and personalised care. At Dr. Smile, every plan is designed around your face, your goals and the smile you want to show the world.",
     meta: ["Smile Design","Aesthetics","Confidence"],
     overview: ["Whether you want subtle whitening or a more complete smile enhancement, cosmetic treatments can improve balance, brightness and facial harmony.","Every plan is shaped to your smile goals, natural tooth colour and overall facial proportions.","The aim is an outcome that feels natural, refined and uniquely yours."],
@@ -130,7 +130,7 @@ const serviceData = {
   'prosthodontics': {
     title: 'Prosthodontics',
     short: 'Restorative Care',
-    image: 'assets/services/prosthodontics.png',
+    image: 'assets/Prosthodontics.webp',
     lead: "Prosthodontics Text: Prosthodontics focuses on restoring damaged or missing teeth so you can smile, chew and speak with comfort and confidence. At Dr. Smile, each restoration is planned for both function and a natural appearance.",
     meta: ["Restoration","Function","Natural Appearance"],
     overview: ["We use carefully planned restorative treatments to replace missing teeth or repair damaged ones while protecting surrounding structures.","Every restoration is designed to support both function and aesthetics, helping your smile feel natural and durable.","The goal is a solution that blends seamlessly with your daily life."],
@@ -152,7 +152,7 @@ const serviceData = {
   'implant-dentistry': {
     title: 'Implant Dentistry',
     short: 'Tooth Replacement',
-    image: 'assets/services/implant-dentistry.png',
+    image: 'assets/Dental Implants.webp',
     lead: "Implant Dentistry Text: Dental implants offer a stable, long-term solution for replacing missing teeth, with a natural-feeling result and strong bite support. At Dr. Smile, every implant is planned carefully, so you understand your treatment before it begins.",
     meta: ["Long-Term Stability","Natural Feel","Smile Restore"],
     overview: ["Implants are placed to act as a secure foundation for crowns, bridges or full-arch restorations when teeth are missing.","The treatment is planned carefully to support both aesthetics and function, while promoting healthy bone support.","Implants can provide a durable and comfortable solution for many patients seeking lasting tooth replacement."],
@@ -174,7 +174,7 @@ const serviceData = {
   periodontics: {
     title: 'Periodontics',
     short: 'Gum Health',
-    image: 'assets/services/periodontics.png',
+    image: 'assets/Periodontics.webp',
     lead: "Periodontics Text: Healthy gums are essential to the strength and longevity of your teeth. Periodontal care focuses on preserving the supporting structures around your smile. At Dr. Smile, you receive clear guidance on how to protect them.",
     meta: ["Gum Health","Prevention","Long-Term Support"],
     overview: ["Periodontal treatment helps manage gum inflammation, disease and the supporting tissues around the teeth.","Early detection and personalised treatment can protect both oral health and overall wellbeing.","A healthy gum foundation supports the long-term stability of your natural teeth and restorations."],
