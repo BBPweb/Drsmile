@@ -747,7 +747,7 @@ if (video) {
         sourceRect.left = videoRect.left + videoRect.width / 2 - sourceRect.width / 2;
         sourceRect.top = videoRect.top + videoRect.height / 2 - sourceRect.height / 2;
       }
-      const sourceWidth = sourceRect.width * (window.innerWidth <= 600 ? 0.72 : 0.62);
+      const sourceWidth = sourceRect.width * (window.innerWidth <= 600 ? 0.68 : 0.58);
       const sourceHeight = sourceWidth * alignerRatio;
 
       sourceData = {
@@ -825,14 +825,7 @@ if (video) {
       const top = startTop + (endTop - startTop) * smooth;
       const width = sourceData.width + (destinationData.width - sourceData.width) * smooth;
 
-      let opacity;
-      if (progress <= 0) {
-        opacity = 0;
-      } else if (progress < 0.10) {
-        opacity = progress / 0.10;
-      } else {
-        opacity = 1;
-      }
+      const opacity = smooth;
 
       aligner.style.left = `${left}px`;
       aligner.style.top = `${top}px`;

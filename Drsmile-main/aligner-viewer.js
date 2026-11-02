@@ -64,7 +64,7 @@ if (stage && canvasHost && status) {
     if (loaded) return;
     loaded = true;
     loader.load(
-      'assets/teethaligner.glb',
+      'assets/teethaligner21.glb',
       (gltf) => {
         const model = gltf.scene;
         const bounds = new THREE.Box3().setFromObject(model);
