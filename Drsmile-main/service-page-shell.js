@@ -28,9 +28,6 @@ if (shellRoot) {
           <div class="footer-brand fade-up">
             <img class="footer-logo" src="assets/logosmile.png" alt="Dr. Smile Orthodontics and Multispecialty Dentistry">
             <p class="brand-copy">Creating healthy, confident smiles with advanced orthodontic care, personalised treatment and a patient-first approach.</p>
-            <div class="socials">
-              <a href="https://wa.me/918296099118" aria-label="Chat with Dr. Smile on WhatsApp"><span aria-hidden="true">&#9673;</span><span>Chat on WhatsApp</span></a>
-            </div>
           </div>
           <div class="footer-col fade-up">
             <h4>Quick Links</h4>

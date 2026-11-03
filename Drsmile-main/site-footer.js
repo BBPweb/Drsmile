@@ -6,12 +6,6 @@ siteFooter.innerHTML = `
       <div class="footer-brand">
         <img class="footer-logo" src="assets/logosmile.png" alt="Dr. Smile Orthodontics and Multispecialty Dentistry">
         <p class="brand-copy">Creating healthy, confident smiles with advanced orthodontic care, personalised treatment and a patient-first approach.</p>
-        <div class="socials">
-          <a href="https://wa.me/918296099118" aria-label="Chat with Dr. Smile on WhatsApp">
-            <span aria-hidden="true">&#9673;</span>
-            <span>Chat on WhatsApp</span>
-          </a>
-        </div>
       </div>
 
       <div class="footer-col">
@@ -103,3 +97,17 @@ if (currentFooter) {
 } else {
   document.body.append(siteFooter);
 }
+
+const whatsappButton = document.createElement('a');
+whatsappButton.className = 'whatsapp-float';
+whatsappButton.href = 'https://wa.me/918296099118';
+whatsappButton.target = '_blank';
+whatsappButton.rel = 'noopener noreferrer';
+whatsappButton.setAttribute('aria-label', 'Chat with Dr. Smile on WhatsApp');
+whatsappButton.title = 'Chat on WhatsApp';
+whatsappButton.innerHTML = `
+  <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+    <path d="M20.52 3.48A11.86 11.86 0 0 0 12.08 0C5.48 0 .11 5.37.1 11.97c0 2.11.55 4.17 1.6 5.99L0 24l6.2-1.63a11.97 11.97 0 0 0 5.87 1.49h.01c6.6 0 11.97-5.37 11.98-11.97a11.9 11.9 0 0 0-3.54-8.41ZM12.08 21.8h-.01a9.9 9.9 0 0 1-5.04-1.38l-.36-.21-3.68.97.98-3.59-.23-.37a9.9 9.9 0 0 1-1.52-5.25c0-5.44 4.43-9.87 9.87-9.87 2.64 0 5.12 1.03 6.99 2.9a9.8 9.8 0 0 1 2.89 6.99c0 5.44-4.43 9.87-9.88 9.87Zm5.42-7.39c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.18.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.47-.89-.79-1.49-1.77-1.66-2.07-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.91-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37s-1.04 1.02-1.04 2.48 1.06 2.87 1.21 3.07c.15.2 2.09 3.2 5.07 4.49.71.31 1.26.49 1.69.63.71.23 1.36.19 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.69.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35Z"/>
+  </svg>
+`;
+document.body.append(whatsappButton);

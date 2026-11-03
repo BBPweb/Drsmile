@@ -150,7 +150,7 @@ const serviceData = {
     next: "Book a consultation to discuss your goals, your symptoms and the most suitable restorative plan for your smile. Our team will explain your options clearly before you decide."
   },
   'implant-dentistry': {
-    title: 'Implant Dentistry',
+    title: 'Dental Implants',
     short: 'Tooth Replacement',
     image: 'assets/Dental Implants.webp',
     lead: "Dental implants offer a stable, long-term solution for replacing missing teeth, with a natural-feeling result and strong bite support. At Dr. Smile, every implant is planned carefully, so you understand your treatment before it begins.",
@@ -310,7 +310,6 @@ if (root) {
         <h2>Speak With Our Team About ${service.title}</h2>
       </div>
       <div class="cta-actions">
-        <a class="primary-btn" href="https://wa.me/918296099118" target="_blank" rel="noreferrer">WhatsApp Us</a>
         <a class="outline-btn" href="contact.html">Book Appointment</a>
       </div>
     </section>
