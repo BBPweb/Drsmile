@@ -113,7 +113,7 @@
       height: 220px;
       right: -12vw;
       top: -60px;
-      background: linear-gradient(150deg, transparent 35%, rgba(255,255,255,.55) 48%, transparent 52%);
+      /* background: linear-gradient(150deg, transparent 35%, rgba(255,255,255,.55) 48%, transparent 52%); */
       transform: rotate(-7deg);
       filter: blur(7px);
       pointer-events: none;
@@ -173,7 +173,7 @@
     .nav-links a {
       color: #273044;
       text-decoration: none;
-      font-size: 14px;
+      font-size: 16px;
       font-weight: 600;
       white-space: nowrap;
       transition: color .2s ease;
