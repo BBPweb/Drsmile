@@ -7,7 +7,7 @@ siteFooter.innerHTML = `
         <img class="footer-logo" src="assets/logosmile.png" alt="Dr. Smile Orthodontics and Multispecialty Dentistry">
         <p class="brand-copy">Creating healthy, confident smiles with advanced orthodontic care, personalised treatment and a patient-first approach.</p>
         <div class="socials">
-          <a href="https://wa.me/914842985200" aria-label="Chat with Dr. Smile on WhatsApp">
+          <a href="https://wa.me/918296099118" aria-label="Chat with Dr. Smile on WhatsApp">
             <span aria-hidden="true">&#9673;</span>
             <span>Chat on WhatsApp</span>
           </a>
@@ -62,11 +62,11 @@ siteFooter.innerHTML = `
           </div>
           <div class="contact-row">
             <span class="contact-icon" aria-hidden="true">&#9742;</span>
-            <a href="tel:+914842985200">+91 484 298 5200</a>
+            <a href="tel:+918296099118">08296099118</a>
           </div>
           <div class="contact-row">
             <span class="contact-icon" aria-hidden="true">&#9993;</span>
-            <a href="mailto:info@drsmile.co.in">info@drsmile.co.in</a>
+            <a href="mailto:info@drreshmadrsmile.com">info@drreshmadrsmile.com</a>
           </div>
           <div class="contact-row">
             <span class="contact-icon" aria-hidden="true">&#9719;</span>
@@ -85,8 +85,8 @@ siteFooter.innerHTML = `
         </div>
       </div>
       <div class="footer-cta-actions">
-        <a class="footer-cta-primary" href="tel:+914842985200">Call the clinic <span aria-hidden="true">&#8599;</span></a>
-        <a class="footer-cta-secondary" href="mailto:info@drsmile.co.in?subject=Consultation%20enquiry">Email our team <span aria-hidden="true">&#8599;</span></a>
+        <a class="footer-cta-primary" href="tel:+918296099118">Call the clinic <span aria-hidden="true">&#8599;</span></a>
+        <a class="footer-cta-secondary" href="mailto:info@drreshmadrsmile.com?subject=Consultation%20enquiry">Email our team <span aria-hidden="true">&#8599;</span></a>
       </div>
     </div>
 

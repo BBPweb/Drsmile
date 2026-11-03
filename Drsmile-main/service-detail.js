@@ -310,7 +310,7 @@ if (root) {
         <h2>Speak With Our Team About ${service.title}</h2>
       </div>
       <div class="cta-actions">
-        <a class="primary-btn" href="https://wa.me/914842985200" target="_blank" rel="noreferrer">WhatsApp Us</a>
+        <a class="primary-btn" href="https://wa.me/918296099118" target="_blank" rel="noreferrer">WhatsApp Us</a>
         <a class="outline-btn" href="contact.html">Book Appointment</a>
       </div>
     </section>
