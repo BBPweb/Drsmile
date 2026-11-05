@@ -13,7 +13,7 @@ if (shellRoot) {
           <a href="index.html">Home</a>
         
           <a href="about.html">About Us</a>
-          <a class="active" href="services.html">Services</a>
+          <a class="active" href="services.html">Departments</a>
           <a href="faq.html">FAQs</a>
           
           <a class="contact-btn" href="contact.html">Contact Us</a>
@@ -34,7 +34,7 @@ if (shellRoot) {
             <div class="footer-links">
               <a href="index.html#top">Home</a>
               <a href="about.html">About Us</a>
-              <a href="services.html#specialties">Our Services</a>
+              <a href="services.html#specialties">Our Departments</a>
               <a href="index.html#services">Invisalign</a>
               <a href="index.html#testimonials">Testimonials</a>
               <a href="contact.html">Contact Us</a>
