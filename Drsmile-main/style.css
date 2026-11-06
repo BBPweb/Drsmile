@@ -2910,3 +2910,9 @@ h6 i {
     font-size: 45px !important;
   }
 }
+
+@media (min-width: 768px) {
+  p {
+    font-size: 16px !important;
+  }
+}
