@@ -3612,3 +3612,36 @@ h6 i {
 p {
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
 }
+/* Experience highlights immediately below the homepage hero. */
+.smile-highlights { padding: 26px 24px; background: #fffefd; color: #542008; }
+.smile-highlights__inner { width: min(100%, 1600px); margin-inline: auto; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.smile-highlight { min-width: 0; padding: 8px clamp(14px, 1.8vw, 34px); text-align: center; }
+.smile-highlight + .smile-highlight { border-left: 2px solid #d8bb9c; }
+.smile-highlight__top { display: flex; align-items: center; justify-content: center; gap: clamp(14px, 1.5vw, 28px); margin-bottom: 4px; }
+.smile-highlight__icon { flex: 0 0 clamp(64px, 6vw, 104px); width: clamp(64px, 6vw, 104px); aspect-ratio: 1; display: grid; place-items: center; border-radius: 50%; background: radial-gradient(circle at 45% 40%, #fff9ef, #fcebd8); border: 1px solid #fae7d4; }
+.smile-highlight__icon svg { width: 66%; height: 66%; }
+.smile-highlight__value { color: #542008; font-family: Inter, ui-sans-serif, system-ui, sans-serif; font-size: clamp(32px, 2.1vw, 64px); line-height: 1; font-weight: 750; letter-spacing: -.045em; white-space: nowrap; }
+.smile-highlight h2 {padding-top:3%;margin: 0; font-family: Inter, ui-sans-serif, system-ui, sans-serif; color: #542008; font-size: clamp(15px, 1.48vw, 25px) !important; font-weight: 400; line-height: 1.4; letter-spacing: -.035em; }
+.smile-highlight p { margin: 8px auto 0; max-width: 290px; color: #80644f; font-size: 13px !important; line-height: 1.5; }
+@media (max-width: 1050px) {
+  .smile-highlights__inner { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 0; }
+  .smile-highlight:nth-child(3) { border-left: 0; }
+  .smile-highlight__icon { flex-basis: 80px; width: 80px; }
+  .smile-highlight__value { font-size: clamp(34px, 5.5vw, 52px); }
+  .smile-highlight h2 { font-size: 19px !important; }
+}
+@media (max-width: 540px) {
+  .smile-highlights { padding: 8px 24px; }
+  .smile-highlights__inner { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .smile-highlight { padding: 24px 0; }
+  .smile-highlight + .smile-highlight { border-left: 0; border-top: 1px solid #d8bb9c; }
+  .smile-highlight__top { gap: 20px; margin-bottom: 8px; }
+  .smile-highlight__value { font-size: clamp(40px, 11vw, 52px); }
+}
+/* Preserve natural casing on buttons and links styled as buttons. */
+button, input[type="submit"], input[type="button"], input[type="reset"],
+a:is([role="button"], [class*="button"], [class*="btn"], [class*="cta"]),
+button *, a:is([role="button"], [class*="button"], [class*="btn"], [class*="cta"]) * {
+  text-transform: none !important;
+  letter-spacing: normal;
+}
