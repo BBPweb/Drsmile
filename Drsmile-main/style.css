@@ -3645,3 +3645,9 @@ button *, a:is([role="button"], [class*="button"], [class*="btn"], [class*="cta"
   text-transform: none !important;
   letter-spacing: normal;
 }
+/* Balance the four remaining footer columns after removing Treatments. */
+@media (min-width: 1100px) {
+  .site-footer .footer-grid:has(> :nth-child(4)):not(:has(> :nth-child(5))) {
+    grid-template-columns: 1.2fr .8fr 1fr 1.15fr;
+  }
+}

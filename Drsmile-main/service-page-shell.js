@@ -12,11 +12,11 @@ if (shellRoot) {
         <nav class="nav-links" aria-label="Primary navigation">
           <a href="index.html">Home</a>
         
-          <a href="about.html">About Us</a>
+          <a href="about.html">About us</a>
           <a class="active" href="services.html">Departments</a>
           <a href="faq.html">FAQs</a>
           
-          <a class="contact-btn" href="contact.html">Contact Us</a>
+          <a class="contact-btn" href="contact.html">Contact us</a>
         </nav>
         <button class="mobile-menu" aria-label="Open menu" aria-expanded="false">&#9776;</button>
       </header>
@@ -33,11 +33,11 @@ if (shellRoot) {
             <h4>Quick Links</h4>
             <div class="footer-links">
               <a href="index.html#top">Home</a>
-              <a href="about.html">About Us</a>
+              <a href="about.html">About us</a>
               <a href="services.html#specialties">Our Departments</a>
               <a href="index.html#services">Invisalign</a>
               <a href="index.html#testimonials">Testimonials</a>
-              <a href="contact.html">Contact Us</a>
+              <a href="contact.html">Contact us</a>
             </div>
           </div>
           <div class="footer-col fade-up">
@@ -54,18 +54,7 @@ if (shellRoot) {
               <a href="periodontics.html">Periodontics</a>
             </div>
           </div>
-          <div class="footer-col fade-up">
-            <h4>Treatments</h4>
-            <div class="footer-links">
-              <a href="orthodontics.html">Orthodontics</a>
-              <a href="orthodontics.html">Invisalign Treatment</a>
-              <a href="cosmetic-dentistry.html">Teeth Whitening</a>
-              <a href="implant-dentistry.html">Dental Implants</a>
-              <a href="prosthodontics.html">Crowns &amp; Bridges</a>
-              <a href="prosthodontics.html">Full Mouth Rehabilitation</a>
-            </div>
-          </div>
-          <div class="footer-col footer-contact fade-up" id="contact">
+<div class="footer-col footer-contact fade-up" id="contact">
             <h4>Contact &amp; Support</h4>
             <div class="contact-list">
               <div class="contact-row"><span class="contact-icon">&#8982;</span><a href="https://www.google.com/maps/search/?api=1&amp;query=Dr.+Smile+Kalamassery+Kochi+Kerala" target="_blank" rel="noopener noreferrer">Kalamassery, Pannampilly Nagar,<br>Kochi, Kerala, India - 682033</a></div>

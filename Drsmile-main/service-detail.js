@@ -276,8 +276,8 @@ if (root) {
           <h3>Next Step</h3>
           <p>${service.next}</p>
           <div class="detail-actions">
-            <a class="primary-btn" href="contact.html">Book Consultation</a>
-            <a class="outline-btn" href="services.html">All Services</a>
+            <a class="primary-btn" href="contact.html">Book consultation</a>
+            <a class="outline-btn" href="services.html">All services</a>
           </div>
         </div>
       </div>
@@ -308,7 +308,7 @@ if (root) {
         <h2>Speak With Our Team About ${service.title}</h2>
       </div>
       <div class="cta-actions">
-        <a class="outline-btn" href="contact.html">Book Appointment</a>
+        <a class="outline-btn" href="contact.html">Book appointment</a>
       </div>
     </section>
 

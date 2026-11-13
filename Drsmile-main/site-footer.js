@@ -12,11 +12,11 @@ siteFooter.innerHTML = `
         <h4>Quick Links</h4>
         <div class="footer-links">
           <a href="index.html#top">Home</a>
-          <a href="about.html">About Us</a>
+          <a href="about.html">About us</a>
           <a href="services.html#specialties">Our Departments</a>
           <a href="orthodontics.html">Invisalign</a>
           <a href="index.html#testimonials">Testimonials</a>
-          <a href="contact.html">Contact Us</a>
+          <a href="contact.html">Contact us</a>
         </div>
       </div>
 
@@ -35,19 +35,7 @@ siteFooter.innerHTML = `
         </div>
       </div>
 
-      <div class="footer-col">
-        <h4>Treatments</h4>
-        <div class="footer-links">
-          <a href="orthodontics.html">Orthodontics</a>
-          <a href="orthodontics.html">Invisalign Treatment</a>
-          <a href="cosmetic-dentistry.html">Teeth Whitening</a>
-          <a href="implant-dentistry.html">Dental Implants</a>
-          <a href="prosthodontics.html">Crowns &amp; Bridges</a>
-          <a href="prosthodontics.html">Full Mouth Rehabilitation</a>
-        </div>
-      </div>
-
-      <div class="footer-col footer-contact" id="contact">
+<div class="footer-col footer-contact" id="contact">
         <h4>Contact &amp; Support</h4>
         <div class="contact-list">
           <div class="contact-row">
