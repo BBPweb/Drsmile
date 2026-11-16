@@ -235,9 +235,6 @@ if (root) {
 
           <h1>${service.title}</h1>
           <p class="lead">${service.lead}</p>
-          <div class="detail-meta">
-            ${service.meta.map((item) => `<span class="meta-pill">${item}</span>`).join('')}
-          </div>
         </div>
       </div>
 

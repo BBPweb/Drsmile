@@ -27,7 +27,7 @@ if (shellRoot) {
         <div class="footer-grid">
           <div class="footer-brand fade-up">
             <img class="footer-logo" src="assets/logosmile.png" alt="Dr. Smile Orthodontics and Multispecialty Dentistry">
-            <p class="brand-copy">Creating healthy, confident smiles with advanced orthodontic care, personalised treatment and a patient-first approach.</p>
+            
           </div>
           <div class="footer-col fade-up">
             <h4>Quick Links</h4>
@@ -35,7 +35,6 @@ if (shellRoot) {
               <a href="index.html#top">Home</a>
               <a href="about.html">About us</a>
               <a href="services.html#specialties">Our Departments</a>
-              <a href="index.html#services">Invisalign</a>
               <a href="index.html#testimonials">Testimonials</a>
               <a href="contact.html">Contact us</a>
             </div>
@@ -57,10 +56,10 @@ if (shellRoot) {
 <div class="footer-col footer-contact fade-up" id="contact">
             <h4>Contact &amp; Support</h4>
             <div class="contact-list">
-              <div class="contact-row"><span class="contact-icon">&#8982;</span><a href="https://www.google.com/maps/search/?api=1&amp;query=Dr.+Smile+Kalamassery+Kochi+Kerala" target="_blank" rel="noopener noreferrer">Kalamassery, Pannampilly Nagar,<br>Kochi, Kerala, India - 682033</a></div>
+              <div class="contact-row"><span class="contact-icon">&#8982;</span><a href="https://www.google.com/maps/search/?api=1&amp;query=Dr.+Smile+Kalamassery+Kochi+Kerala" target="_blank" rel="noopener noreferrer">Kalamassery, Pannampilly Nagar,<br>Kochi, Keralam, India - 682033</a></div>
               <div class="contact-row"><span class="contact-icon">&#9742;</span><a href="tel:+918296099118">08296099118</a></div>
               <div class="contact-row"><span class="contact-icon">&#9993;</span><a href="mailto:info@drreshmadrsmile.com">info@drreshmadrsmile.com</a></div>
-              <div class="contact-row"><span class="contact-icon">&#9719;</span><span>Mon - Sat: 9:30 AM - 7:00 PM<br>Sunday: By Appointment</span></div>
+              <div class="contact-row"><span class="contact-icon">&#9719;</span><span>Mon - Sat: 9:30 AM - 7:00 PM<br>Sunday: By appointment</span></div>
             </div>
           </div>
         </div>
