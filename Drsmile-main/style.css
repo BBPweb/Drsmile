@@ -513,7 +513,7 @@ video {
   padding: 20px clamp(24px, 3vw, 44px) 0;
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  gap: clamp(25px, 4vw, 65px);
+  gap: clamp(25px, 2vw, 65px);
 }
 
 .copy {
@@ -3608,7 +3608,7 @@ h6 {
 
 h1 {
   margin: 0 !important;
-  font-size: clamp(40px, 6.1vw, 52px) !important;
+  font-size: clamp(40px, 6.1vw, 44px) !important;
 }
 
 h1 em,
