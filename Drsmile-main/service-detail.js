@@ -280,10 +280,10 @@ if (root) {
       </div>
     </article>
 
-    <section class="detail-gallery-block"><div class="section-heading-block"><h2>See the spaces, technology, and care that go into every visit</h2><p>Take a look behind the scenes at our modern practice, where state-of-the-art technology meets compassionate, expert care.</p></div><div class="section-heading-block"><h2>Hear From Our Specialists</h2><p>Get expert insights and answers to your biggest dental questions straight from our lead clinicians.</p></div></section>
+    <section class="detail-gallery-block"><div class="section-heading-block"><h2>See the Spaces, Technology, and Care That Go into<br>Every Visit</h2><p>Take a look behind the scenes at our modern practice, where state-of-the-art technology meets compassionate, expert care.</p></div><div class="section-heading-block"><h2>Hear From Our Specialists</h2><p>Get expert insights and answers to your biggest dental questions straight from our lead clinicians.</p></div></section>
     <section class="faq-block">
       <div class="section-heading-block">
-        <h2>Questions patients often ask</h2>
+        <h2>Questions Patients Often Ask</h2>
       </div>
       <div class="faq-list">
         ${service.faqs.map((item, index) => `
@@ -297,15 +297,6 @@ if (root) {
             </div>
           </div>
         `).join('')}
-      </div>
-    </section>
-
-    <section class="cta-banner">
-      <div>
-        <h2>Speak With Our Team About ${service.title}</h2>
-      </div>
-      <div class="cta-actions">
-        <a class="outline-btn" href="contact.html">Book appointment</a>
       </div>
     </section>
 

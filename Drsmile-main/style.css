@@ -2667,6 +2667,32 @@ h3 {
   padding-top:3%;
 }
 
+/* Homepage introduction: keep the heading and copy in balanced columns. */
+#our-services .services-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+  align-items: start;
+  gap: clamp(28px, 4vw, 64px);
+  margin-bottom: 0;
+}
+
+#our-services .services-heading h2 {
+  line-height: 1.1;
+}
+
+#our-services .services-intro {
+  max-width: none;
+  margin: 0;
+  padding-top: 0;
+}
+
+@media (max-width: 800px) {
+  #our-services .services-heading {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+  }
+}
+
 .services-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
