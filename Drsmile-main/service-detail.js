@@ -346,6 +346,18 @@ if (root) {
     }
   });
 
+  // Recalculate expanded answers when wrapping changes on rotation or resize.
+  const updateOpenAnswers = () => {
+    faqItems.forEach((item) => {
+      if (item.classList.contains('is-open')) {
+        const content = item.querySelector('.faq-content');
+        content.style.maxHeight = `${content.scrollHeight + 24}px`;
+      }
+    });
+  };
+  window.addEventListener('resize', updateOpenAnswers);
+  document.fonts?.ready.then(updateOpenAnswers);
+
   const compareRange = document.querySelector('.compare-range');
   const compareOverlay = document.querySelector('.compare-overlay');
   const compareDivider = document.querySelector('.compare-divider');

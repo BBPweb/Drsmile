@@ -827,12 +827,13 @@ h1 {
 
   .hero-content {
     min-height: auto;
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     padding: 40px 24px 55px;
     gap: 18px;
   }
 
   .copy {
+    min-width: 0;
     max-width: 720px;
     padding-bottom: 0;
   }
@@ -907,8 +908,8 @@ h1 {
   }
 
   .mobile-menu {
-    width: 40px;
-    height: 40px;
+    width: 44px;
+    height: 44px;
   }
 
   .hero-content {

@@ -833,6 +833,28 @@ img {
 }
 
 @media (max-width: 720px) {
+  .detail-copy,
+  .info-panel,
+  .side-panel,
+  .side-box {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .service-detail h1 {
+    font-size: clamp(32px, 10vw, 40px) !important;
+    overflow-wrap: anywhere;
+  }
+
+  .detail-visual {
+    min-height: 0;
+  }
+
+  .detail-visual img {
+    max-width: 100%;
+    max-height: 260px;
+  }
+
   .nav-wrap.topbar {
     flex-wrap: wrap;
     justify-content: center;
