@@ -25,21 +25,36 @@ document.addEventListener('keydown', event => {
 
 const enquiryForm = document.querySelector('.contact-form');
 if (enquiryForm) {
-  enquiryForm.addEventListener('submit', event => {
+  enquiryForm.addEventListener('submit', async event => {
     event.preventDefault();
-    const fields = new FormData(enquiryForm);
-    const value = name => String(fields.get(name) || '').trim();
-    const body = [
-      `Name: ${value('name')}`,
-      `Email: ${value('email')}`,
-      `Phone: ${value('phone') || 'Not provided'}`,
-      `Preferred clinic: ${value('clinic')}`,
-      '',
-      value('message')
-    ].join('\r\n');
-    const subject = 'Website enquiry - Dr. Smile';
-    window.location.href = `mailto:info@drreshmadrsmile.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    enquiryForm.querySelector('.contact-form-status').textContent =
-      'Your enquiry is ready in your email app. If it did not open, email info@drreshmadrsmile.com or call 08296099118.';
+    const button = enquiryForm.querySelector('button[type="submit"]');
+    const status = enquiryForm.querySelector('.contact-form-status');
+    if (button.disabled || !enquiryForm.reportValidity()) return;
+    const originalLabel = button.innerHTML;
+    button.disabled = true;
+    button.textContent = 'Sending…';
+    enquiryForm.setAttribute('aria-busy', 'true');
+    status.textContent = 'Sending your enquiry…';
+    try {
+      const response = await fetch(enquiryForm.action, {
+        method: 'POST',
+        body: new FormData(enquiryForm),
+        headers: { Accept: 'application/json' }
+      });
+      const result = await response.json();
+      if (!response.ok || result.success !== true) {
+        throw new Error(result.message || 'Unable to send your enquiry. Please try again or call 08296099118.');
+      }
+      status.textContent = result.message;
+      enquiryForm.reset();
+    } catch (error) {
+      status.textContent = error instanceof SyntaxError || error instanceof TypeError
+        ? 'Unable to confirm your enquiry was sent. Please try again or call 08296099118.'
+        : error.message;
+    } finally {
+      button.disabled = false;
+      button.innerHTML = originalLabel;
+      enquiryForm.removeAttribute('aria-busy');
+    }
   });
 }

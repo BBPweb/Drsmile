@@ -39,7 +39,11 @@
         <p>Have a question or want to arrange a consultation? Share your details and tell us how we can help.</p>
         <a href="tel:+918296099118">Prefer to call? 08296099118</a>
       </div>
-      <form class="contact-form" action="mailto:info@drreshmadrsmile.com" method="post" enctype="text/plain" aria-describedby="enquiry-note">
+      <form class="contact-form" action="send-enquiry.php" method="post" aria-describedby="enquiry-note">
+        <div hidden aria-hidden="true">
+          <label for="enquiry-website">Leave this field empty</label>
+          <input id="enquiry-website" name="website" type="text" tabindex="-1" autocomplete="off" />
+        </div>
         <div class="contact-form-field">
           <label for="enquiry-name">Full name <span>(required)</span></label>
           <input id="enquiry-name" name="name" type="text" autocomplete="name" maxlength="100" required />
@@ -65,8 +69,8 @@
           <textarea id="enquiry-message" name="message" rows="3" maxlength="3000" required></textarea>
         </div>
         <div class="contact-form-wide">
-          <p id="enquiry-note" class="contact-form-note">This opens your email app with your enquiry. Review it and send it to our team.</p>
-          <button class="contact-primary-link" type="submit">Continue to Email <span aria-hidden="true">&#8599;</span></button>
+          <p id="enquiry-note" class="contact-form-note">Send your enquiry directly to our team. We'll get back to you soon.</p>
+          <button class="contact-primary-link" type="submit">Send Enquiry <span aria-hidden="true">&#8599;</span></button>
           <p class="contact-form-status" role="status" aria-live="polite"></p>
         </div>
       </form>
