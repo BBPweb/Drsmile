@@ -225,6 +225,7 @@ if (root) {
     }));
 
   root.innerHTML = `
+    <nav class="detail-breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><a href="services.html">Departments</a><span aria-hidden="true">/</span><span aria-current="page">${service.title}</span></nav>
     <article class="detail-card">
       <div class="detail-hero">
         <div class="detail-visual">
@@ -232,9 +233,10 @@ if (root) {
         </div>
 
         <div class="detail-copy">
-
+          <p class="detail-eyebrow">Specialist care. Personal attention.</p>
           <h1>${service.title}</h1>
           <p class="lead">${service.lead}</p>
+          <div class="detail-actions"><a class="primary-btn" href="contact.html#enquiry">Book a Consultation <span aria-hidden="true">&#8599;</span></a><a class="detail-phone" href="tel:+918296099118">Call 08296099118</a></div>
         </div>
       </div>
 
@@ -254,9 +256,9 @@ if (root) {
 
           <div class="side-box">
             <h3>Common Treatment Journey</h3>
-            <ul>
+            <ol class="detail-steps">
               ${service.process.map((item) => `<li>${item}</li>`).join('')}
-            </ul>
+            </ol>
           </div>
         </aside>
       </div>
@@ -269,7 +271,7 @@ if (root) {
           </ul>
         </div>
 
-        <div class="side-box">
+        <div class="side-box detail-next-step">
           <h3>Next Step</h3>
           <p>${service.next}</p>
           <div class="detail-actions">
@@ -280,7 +282,14 @@ if (root) {
       </div>
     </article>
 
-    <section class="detail-gallery-block"><div class="section-heading-block"><h2>See the Spaces, Technology, and Care That Go into<br>Every Visit</h2><p>Take a look behind the scenes at our modern practice, where state-of-the-art technology meets compassionate, expert care.</p></div><div class="section-heading-block"><h2>Hear From Our Specialists</h2><p>Get expert insights and answers to your biggest dental questions straight from our lead clinicians.</p></div></section>
+    <section class="detail-gallery-block">
+      <div class="section-heading-block"><p class="detail-eyebrow">The Dr. Smile experience</p><h2>See the Spaces, Technology, and Care That Go into<br>Every Visit</h2><p>Take a look behind the scenes at our modern practice, where state-of-the-art technology meets compassionate, expert care.</p></div>
+      <div class="detail-clinic-grid">
+        <a class="detail-clinic-card" href="contact.html#locations"><img src="assets/kalamassery.webp" alt="Dr. Smile Kalamassery clinic" loading="lazy"><span>Kalamassery <span aria-hidden="true">&#8599;</span></span></a>
+        <a class="detail-clinic-card" href="contact.html#locations"><img src="assets/panampilly-clinic.webp" alt="Dr. Smile Panampilly Nagar clinic" loading="lazy"><span>Panampilly Nagar <span aria-hidden="true">&#8599;</span></span></a>
+      </div>
+      <div class="detail-specialists"><div><p class="detail-eyebrow">Care built around you</p><h2>Hear From Our Specialists</h2><p>Get expert insights and answers to your biggest dental questions straight from our lead clinicians.</p></div><a class="outline-btn" href="about.html">Meet Our Team <span aria-hidden="true">&#8599;</span></a></div>
+    </section>
     <section class="faq-block">
       <div class="section-heading-block">
         <h2>Questions Patients Often Ask</h2>
@@ -306,7 +315,8 @@ if (root) {
         ${related.map((item) => `
           <a class="related-card" href="${item.slug}.html">
             <img src="${item.image}" alt="${item.title}" />
-            <h4>${item.title}</h4>
+            <h3>${item.title}</h3>
+            <span class="detail-related-link">Explore Department <span aria-hidden="true">&#8599;</span></span>
 
           </a>
         `).join('')}

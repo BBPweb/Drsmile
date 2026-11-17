@@ -3680,3 +3680,28 @@ button *, a:is([role="button"], [class*="button"], [class*="btn"], [class*="cta"
     grid-template-columns: 1.2fr .8fr 1fr 1.15fr;
   }
 }
+/* Keep the call shortcut directly above WhatsApp on every screen size. */
+.call-float {
+  position: fixed;
+  right: 24px;
+  bottom: 96px;
+  z-index: 1000;
+  display: grid;
+  width: 60px;
+  height: 60px;
+  place-items: center;
+  border-radius: 50%;
+  background: #805125;
+  color: #fff;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, .24);
+  transition: background-color .2s ease, transform .2s ease;
+}
+.call-float:hover { background: #603a1c; transform: translateY(-3px); }
+.call-float:focus-visible { outline: 3px solid #b7833f; outline-offset: 4px; }
+.call-float svg { display: block; width: 27px; height: 27px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+@media (max-width: 600px) {
+  .call-float { right: 16px; bottom: 84px; width: 56px; height: 56px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .call-float { transition: none; }
+}

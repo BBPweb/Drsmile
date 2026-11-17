@@ -22,3 +22,24 @@ document.addEventListener('keydown', event => {
     menuButton.focus();
   }
 });
+
+const enquiryForm = document.querySelector('.contact-form');
+if (enquiryForm) {
+  enquiryForm.addEventListener('submit', event => {
+    event.preventDefault();
+    const fields = new FormData(enquiryForm);
+    const value = name => String(fields.get(name) || '').trim();
+    const body = [
+      `Name: ${value('name')}`,
+      `Email: ${value('email')}`,
+      `Phone: ${value('phone') || 'Not provided'}`,
+      `Preferred clinic: ${value('clinic')}`,
+      '',
+      value('message')
+    ].join('\r\n');
+    const subject = 'Website enquiry - Dr. Smile';
+    window.location.href = `mailto:info@drreshmadrsmile.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    enquiryForm.querySelector('.contact-form-status').textContent =
+      'Your enquiry is ready in your email app. If it did not open, email info@drreshmadrsmile.com or call 08296099118.';
+  });
+}

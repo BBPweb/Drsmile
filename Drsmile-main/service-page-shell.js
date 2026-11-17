@@ -56,7 +56,7 @@ if (shellRoot) {
 <div class="footer-col footer-contact fade-up" id="contact">
             <h4>Contact &amp; Support</h4>
             <div class="contact-list">
-              <div class="contact-row"><span class="contact-icon">&#8982;</span><a href="https://www.google.com/maps/search/?api=1&amp;query=Dr.+Smile+Kalamassery+Kochi+Kerala" target="_blank" rel="noopener noreferrer">Kalamassery, Pannampilly Nagar,<br>Kochi, Keralam, India - 682033</a></div>
+              <div class="contact-row"><span class="contact-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></span><a href="https://www.google.com/maps/search/?api=1&amp;query=Dr.+Smile+Kalamassery+Kochi+Kerala" target="_blank" rel="noopener noreferrer">Kalamassery, Panampilly Nagar,<br>Kochi, Keralam, India - 682033</a></div>
               <div class="contact-row"><span class="contact-icon">&#9742;</span><a href="tel:+918296099118">08296099118</a></div>
               <div class="contact-row"><span class="contact-icon">&#9993;</span><a href="mailto:info@drreshmadrsmile.com">info@drreshmadrsmile.com</a></div>
               <div class="contact-row"><span class="contact-icon">&#9719;</span><span>Mon - Sat: 9:30 AM - 7:00 PM<br>Sunday: By appointment</span></div>
